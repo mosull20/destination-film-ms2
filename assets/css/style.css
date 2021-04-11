@@ -1,38 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Oswald:wght@300&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;800&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-size: 18px;
+    font-weight: 200;
     margin: 0;
     padding: 0;
 }
 
+/* Background-image main section */
 #headline-section {
-    background: url('../images/iceland-hero.jpg') no-repeat center center fixed;
+    background: url('../images/iceland-hero-filter.jpg') no-repeat center center fixed;
+    background-color: rgb(66, 64, 64);
     width: auto;
     height: 100vh;
     position: relative;
-
 }
 
+/* Nav bar links */
+#headline-section a {
+    font-size: 20px;
+    color: rgb(247, 245, 245);
+}
+
+/* Heading over background image */
 .headline-text {
     position: absolute;
     width: 100%;
     top: 40%;
     text-align: center;
     color: rgb(247, 245, 245);
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+    opacity: 0.8;
 }
 
 .headline-text h1 {
-    font-size: 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 65px;
     text-transform: uppercase;
-    text-shadow: 2px 2px black;
 }
 
 .headline-text a {
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+/* Intro section */
+#intro-section {
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(207, 214, 241);
+    color: rgb(66, 64, 64);
+}
+
+.info-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+
+}
+
+.info-text p {
+    padding: 25px 40px 20px 40px;
+    font-size: 20px;
+}
+
+.info-text a {
+    color: rgb(66, 64, 64);
+    font-size: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(207, 214, 241);
+    color: rgb(66, 64, 64);
+    text-align: center;
+}
+
+footer a {
+    color: rgb(66, 64, 64);
+}
+
+#footer-hr {
+    background-color: rgb(207, 214, 241);
+    color: rgb(66, 64, 64);
+    width: 75%;
+    border: 1px solid;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+
+    .headline-text {
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+
+    .headline-text h1 {
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    #intro-section {
+        padding: 8px;
+        padding-top: 20px;
+    }
+
+    .info-text h2 {
+        font-size: 20px;
+    }
+
+    .info-text p {
+        padding: 25px 10px 20px 10px;
+        font-size: 16px;
+    }
+
+    .info-text a {
+        font-size: 20px;
+    }
+
+    .footer-item {
+        height: 30px;
+    }
+
 }
