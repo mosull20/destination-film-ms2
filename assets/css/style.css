@@ -36,9 +36,9 @@ body {
     opacity: 0.8;
 }
 
-.headline-text h1 {
+h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 65px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -72,6 +72,97 @@ body {
     font-size: 30px;
 }
 
+/* DESTINATIONS PAGE */
+
+#country-iceland {
+    background-image: url('../images/iceland-glacier.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 64, 64);
+    width: 100%;
+    height: 35vh;
+    color: rgb(247, 245, 245);
+    text-align: center;
+}
+
+.country-text {
+    position: absolute;
+    width: 100%;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+    opacity: 0.8;
+}
+
+.iceland-text {
+    top: 20%;
+}
+
+#country-malta {
+    background-image: url('../images/malta-sea.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 64, 64);
+    width: 100%;
+    height: 35vh;
+    color: rgb(247, 245, 245);
+    text-align: center;
+}
+
+.malta-text {
+    top: 50%;
+}
+
+#country-new-zealand {
+    background-image: url('../images/new-zealand-hobbit-house.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 64, 64);
+    width: 100%;
+    height: 35vh;
+    color: rgb(247, 245, 245);
+    text-align: center;
+}
+
+.new-zealand-text {
+    top: 85%;
+}
+
+#country-morocco {
+    background-image: url('../images/morocco-own.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 64, 64);
+    width: 100%;
+    height: 35vh;
+    color: rgb(247, 245, 245);
+    text-align: center;
+}
+
+.morocco-text {
+    top: 120%;
+}
+
+#country-ireland {
+    background-image: url('../images/ireland-1-v2.jpg');
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(66, 64, 64);
+    width: 100%;
+    height: 35vh;
+    color: rgb(247, 245, 245);
+    text-align: center;
+}
+
+.ireland-text {
+    top: 160%;
+}
+
 /* Footer */
 footer {
     background-color: rgb(207, 214, 241);
@@ -89,6 +180,7 @@ footer a {
     width: 75%;
     border: 1px solid;
 }
+
 
 /* Media Queries */
 
