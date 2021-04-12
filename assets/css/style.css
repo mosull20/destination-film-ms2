@@ -74,7 +74,7 @@ h1 {
 
 /* DESTINATIONS PAGE */
 
-header {
+.destinations-header {
     background-color: rgb(207, 214, 241);
 }
 
@@ -169,6 +169,68 @@ header {
 
 .ireland-text {
     top: 160%;
+}
+
+/* Contact page */
+#contact-section {
+    background: url('../images/ireland-maeve-filter.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(66, 64, 64);
+    width: auto;
+    height: 100vh;
+    position: relative;
+}
+
+#contact-section a {
+    font-size: 20px;
+    color: rgb(247, 245, 245);
+}
+
+.contact-heading-row {
+    padding-top: 80px;
+    text-align: center;
+}
+
+/* Form all from love running*/
+.contact-form {
+    color: #fff;
+
+}
+
+.contact-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 30px;
+}
+
+.form-group {
+    padding: 10px 20px 10px 20px;
+
+}
+
+.text-input {
+    background: transparent;
+    border-color: rgb(123, 121, 148);
+    color: #fafafa;
+    background-color: rgba(60, 60, 60, 0.2);
+    width: 80%;
+    margin: auto;
+
+}
+
+.text-input:hover {
+    border-color: rgb(247, 245, 245);
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    background-color: #4752b8;
+    color: #fafafa;
+
 }
 
 /* Footer */
