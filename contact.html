@@ -22,9 +22,9 @@
 
 <body>
     <!-- Nav Bar -->
+    <section id="contact-section">
+        <header>
 
-    <header>
-        <section id="headline-section">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
                     <a class="navbar-brand" href="#">Destination Film</a>
@@ -51,9 +51,43 @@
                     </div>
                 </nav>
             </div>
-    </header>
+        </header>
 
-    <!-- Headline -->
+        <!-- Contact -->
+
+        <div class="container-fluid">
+            <div class="row contact-heading-row">
+                <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-0 contact-col">
+
+                    <form class="contact-form">
+                        <h2 class="contact-heading">Get in touch</h2>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control text-input" id="name" name="name"
+                                aria-describedby="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control text-input" id="email" name="email"
+                                aria-describedby="emailHelp" placeholder="Your Email Address" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea rows="7" id="message" name="message" class="form-control text-input"
+                                placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn submit-btn">Send it!</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
