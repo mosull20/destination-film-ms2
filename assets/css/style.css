@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Oswald:wght@300&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 18px;
@@ -95,7 +99,6 @@ h1 {
 }
 
 .country-text {
-
     width: 50%;
     font-weight: 300;
     font-size: 30px;
@@ -114,6 +117,7 @@ h1 {
 
 .iceland-text a {
     color: rgb(247, 245, 245);
+    text-decoration: none;
 }
 
 #country-malta {
@@ -139,6 +143,8 @@ h1 {
 
 .malta-text a {
     color: rgb(247, 245, 245);
+    text-decoration: none;
+    text-align: center;
 }
 
 #country-new-zealand {
@@ -164,6 +170,8 @@ h1 {
 
 .new-zealand-text a {
     color: rgb(247, 245, 245);
+    text-decoration: none;
+    text-align: center;
 }
 
 #country-morocco {
@@ -174,12 +182,7 @@ h1 {
     background-color: rgb(66, 64, 64);
     width: 100%;
     height: 35vh;
-    text-align: center;
     position: relative;
-}
-
-.morocco-text a {
-    color: rgb(247, 245, 245);
 }
 
 .morocco-text {
@@ -189,6 +192,12 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
+    text-align: center;
+}
+
+.morocco-text a {
+    color: rgb(247, 245, 245);
+    text-decoration: none;
 }
 
 #country-ireland {
@@ -214,6 +223,14 @@ h1 {
 
 .ireland-text a {
     color: rgb(247, 245, 245);
+    text-decoration: none;
+    text-align: center;
+}
+
+.country-intro-info {
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
 
 /* Contact page */
