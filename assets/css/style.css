@@ -121,6 +121,26 @@ h1 {
     text-decoration: none;
 }
 
+#box-one {
+    height: auto;
+    padding-left: 15%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10%;
+    font-size: 14px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+#map-one {
+    display: inline-block;
+}
+
 #country-malta {
     background-image: url('../images/malta-sea.jpg');
     background-position: center;

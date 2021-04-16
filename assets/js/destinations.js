@@ -6,3 +6,8 @@ function arrowSwitch(event) {
 
 let arrow = document.getElementById('arrow');
 arrow.addEventListener('click', arrowSwitch);
+
+// $(".iceland-text a").click(function () {
+//     $("#box-one").html(
+// )
+// });
