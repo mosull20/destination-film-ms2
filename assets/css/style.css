@@ -139,6 +139,11 @@ img {
 
 #map-one {
     display: inline-block;
+    min-height: 300px;
+    min-width: 500px;
+    padding: 20px;
+    margin: 50px;
+
 }
 
 #country-malta {
@@ -253,6 +258,8 @@ img {
     width: 80%;
     text-align: center;
 }
+
+
 
 /* Contact page */
 #contact-section {
