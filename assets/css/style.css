@@ -77,7 +77,7 @@ h1 {
     font-size: 30px;
 }
 
-/* DESTINATIONS PAGE */
+/* DESTINATIONS PAGE - heading and nav*/
 
 .destinations-header {
     background-color: rgb(207, 214, 241);
@@ -87,6 +87,7 @@ h1 {
     color: rgb(66, 64, 64);
 }
 
+/* DESTINATIONS PAGE - country sections */
 #country-iceland {
     background-image: url('../images/iceland-glacier.jpg');
     background-position: center;
@@ -105,9 +106,6 @@ h1 {
     font-size: 30px;
     letter-spacing: 3px;
     opacity: 0.8;
-}
-
-.iceland-text {
     position: absolute;
     margin: auto;
     top: 100px;
@@ -116,46 +114,12 @@ h1 {
     right: 0;
 }
 
-.iceland-text a {
+.country-text a {
     color: rgb(247, 245, 245);
     text-decoration: none;
 }
 
-#box-one {
-    height: auto;
-    padding-left: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-right: 10px;
-    font-size: 14px;
-    text-align: center;
-}
-
-#iceland-div {
-    height: 300px;
-    width: auto;
-    padding: 15px;
-}
-
-ul {
-    list-style: none;
-}
-
-img {
-    width: 400px;
-    height: auto;
-    padding-bottom: 30px;
-}
-
-#map-one {
-    display: inline-block;
-    min-height: 300px;
-    min-width: 500px;
-    padding: 20px;
-    margin: 50px;
-
-}
-
+/* Malta box */
 #country-malta {
     background-image: url('../images/malta-sea.jpg');
     background-position: center;
@@ -168,21 +132,7 @@ img {
     position: relative;
 }
 
-.malta-text {
-    position: absolute;
-    margin: auto;
-    top: 40%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.malta-text a {
-    color: rgb(247, 245, 245);
-    text-decoration: none;
-    text-align: center;
-}
-
+/* New Zealand box */
 #country-new-zealand {
     background-image: url('../images/new-zealand-hobbit-house.jpg');
     background-position: center;
@@ -195,21 +145,7 @@ img {
     position: relative;
 }
 
-.new-zealand-text {
-    position: absolute;
-    margin: auto;
-    top: 40%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.new-zealand-text a {
-    color: rgb(247, 245, 245);
-    text-decoration: none;
-    text-align: center;
-}
-
+/* Morocco box */
 #country-morocco {
     background-image: url('../images/morocco-own.jpg');
     background-position: center;
@@ -218,24 +154,11 @@ img {
     background-color: rgb(66, 64, 64);
     width: 100%;
     height: 35vh;
+    text-align: center;
     position: relative;
 }
 
-.morocco-text {
-    position: absolute;
-    margin: auto;
-    top: 40%;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-}
-
-.morocco-text a {
-    color: rgb(247, 245, 245);
-    text-decoration: none;
-}
-
+/* Ireland box */
 #country-ireland {
     background-image: url('../images/ireland-1-v2.jpg');
     background-position: right;
@@ -248,28 +171,41 @@ img {
     position: relative;
 }
 
-.ireland-text {
-    position: absolute;
-    margin: auto;
-    top: 40%;
-    bottom: 0;
-    left: 0;
-    right: 0;
+/* Div for showing country info */
+
+.hidden {
+    display: none;
 }
 
-.ireland-text a {
-    color: rgb(247, 245, 245);
-    text-decoration: none;
+.box-one {
+    height: auto;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    font-size: 14px;
     text-align: center;
+
 }
 
-.country-intro-info {
-    margin: auto;
-    width: 80%;
-    text-align: center;
+#iceland-div {
+    height: 300px;
+    width: auto;
+    padding: 15px;
 }
 
+ul {
+    list-style: none;
+}
 
+#map-one {
+    display: inline-block;
+    width: auto;
+    height: 40vh;
+    padding: 10px;
+    margin: 10px;
+
+}
 
 /* Contact page */
 #contact-section {
