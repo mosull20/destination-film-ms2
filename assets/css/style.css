@@ -95,6 +95,12 @@ h1 {
     color: rgb(66, 64, 64);
 }
 
+.country-title-hr {
+    color: rgb(66, 64, 64);
+    width: 75%;
+    border: 1px solid;
+}
+
 .destinations-info-text h2 {
     font-size: 30px;
     font-weight: 400;
@@ -198,7 +204,7 @@ h1 {
 }
 
 .box-one {
-    height: auto;
+    height: 600px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 40px;
