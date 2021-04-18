@@ -45,7 +45,8 @@ $(document).ready(function () {
 // function to push html depending on which heading the user clicks on
 $("#iceland-li-one").click(function () {
     $("#iceland-div").html(
-        `<p>Dettifoss (Falling Waterfall) is an amazing waterfall. No wonder Riddley Scott chose this
+        `<img src="assets/images/dettifoss.jpg" alt="photo of Dettifoss waterfall">
+        <p>Dettifoss (Falling Waterfall) is an amazing waterfall. No wonder Riddley Scott chose this
             spectacular
             scenery
             to be the background of the opening scene of his movie Prometheus (2012). Dettifoss is europes
