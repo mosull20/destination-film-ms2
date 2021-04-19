@@ -246,3 +246,91 @@ $("#newzealand-li-five").click(function () {
         `
     );
 })
+
+// img src="assets/images/mor-ait-benhaddou.jpg" alt="photo of Ait Benhaddou">
+//                             <p>Aït Benhaddou</p>
+//                             <hr class="country-title-hr">
+//                             <p>The glorious earth-built traditional Berber ksar of Ait Ben Haddou is a dream come true
+//                                 for
+//                                 photographers and film-makers. The towering sand-colored walls,
+//                                 narrow interior pathways and staircases, traditional abodes, and panoramic vistas have
+//                                 featured in
+//                                 a number of movies, including Gladiator, Lawrence of Arabia, and Jewel of the Nile. Fans
+//                                 of Game of Thrones
+//                                 may recognize the glorious site as the fictitious Yellow City of Yunkai. (culture trip)
+//                             </p>
+
+// morocco section
+
+$("#morocco-li-one").click(function () {
+    $("#morocco-div").html(
+        `<img src="assets/images/mor-ait-benhaddou.jpg" alt="photo of Ait Benhaddou">
+        <p>Aït Benhaddou</p>
+        <hr class="country-title-hr">
+        <p>The glorious earth-built traditional Berber ksar of Ait Ben Haddou is a dream come true
+            for
+            photographers and film-makers. The towering sand-colored walls,
+            narrow interior pathways and staircases, traditional abodes, and panoramic vistas have
+            featured in
+            a number of movies, including Gladiator, Lawrence of Arabia, and Jewel of the Nile. Fans
+            of Game of Thrones
+            may recognize the glorious site as the fictitious Yellow City of Yunkai. (culture trip)
+        </p>
+        `
+    );
+})
+
+$("#morocco-li-two").click(function () {
+    $("#morocco-div").html(
+        `<img src="assets/images/mor-tangier.jpg" alt="photo of Tangier">
+        <p>Tangier</p>
+        <hr class="country-title-hr">
+        <p>The bustling Grand Souk in Morocco’s northern coastal city of Tangier was chosen as 
+        the perfect place to film the exhilarating chase scene in Inception, with Tangier also 
+        filling in for Kenya’s large city of Mombasa. Tangier also saw plenty of action during 
+        the filming of The Bourne Ultimatum, and it has featured in several James Bond movies, 
+        including From Russia with Love and The Living Daylights. (culture trip)</p>
+        `
+    );
+})
+
+$("#morocco-li-three").click(function () {
+    $("#morocco-div").html(
+        `<img src="assets/images/mor-erg-chebbi.jpg" alt="photo of Erg Chebbi">
+        <p>Erg Chebbi</p>
+        <hr class="country-title-hr">
+        <p>The majestic and towering dunes of Erg Chebbi inspire awe in most that see them. 
+        It is no surprise, therefore, that the site has been noticed by film producers. 
+        In The Mummy Returns, the Moroccan desert was used for scenes that supposedly occurred 
+        in the Egyptian desert. (culture trip)
+        </p>
+        `
+    );
+})
+
+$("#morocco-li-four").click(function () {
+    $("#morocco-div").html(
+        `<img src="assets/images/mor-marrakech1.jpg" alt="photo of Marrakesh">
+        <p>Marrakesh</p>
+        <hr class="country-title-hr">
+        <p>Avid film fans may be surprised to find out that a hotel, Amanjena, in Marrakech 
+        was used as a stand-in for Abu Dhabi in Sex and the City 2 (culture trip).
+        Places such as Mandarin Oriental, Mouassine and Jema El Fna Square (the latter where 
+        they appear wandering around the bustling souk markets) are some of the star filming 
+        locations of the movie.(villasmarrakech.com)</p>
+        `
+    );
+})
+
+$("#morocco-li-five").click(function () {
+    $("#morocco-div").html(
+        `<img src="assets/images/mor-essaouira.jpg" alt="photo of Essaouira">
+        <p>Essaouira</p>
+        <hr class="country-title-hr">
+        <p>The popular coastal town of Essaouira was one of many global locations chosen to film Alexander, and it 
+        was transformed for Kingdom of Heaven to represent ancient Jerusalem. If you love Game of Thrones you’ll 
+        likely enjoy exploring Astapor; Essaouira was the setting for the fictitious area.  
+        </p>
+        `
+    );
+})
