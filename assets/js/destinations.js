@@ -140,7 +140,7 @@ $("#malta-li-two").click(function () {
 
 $("#malta-li-three").click(function () {
     $("#malta-div").html(
-        `<img src="assets/images/malta-blue-lagoon.jpg" alt="photo of Popeye village">
+        `<img src="assets/images/malta-blue-lagoon.jpg" alt="photo of Blue Lagoon">
         <p>Blue Lagoon</p>
         <hr class="country-title-hr">
         <p>Malta’s smallest island, Comino, currently only has a population of three, yet thousands of people flock here
@@ -172,6 +172,76 @@ $("#malta-li-five").click(function () {
         <p>Malta’s former capital, Mdina, known as the Silent City, is a medieval walled city with narrow streets, 
         centuries-old buildings and, at its heart, a cathedral that dominates the skyline. Mdina featured in Game of Thrones, 
         as did nearby Rabat, standing in for early depictions of King’s Landing. 
+        </p>
+        `
+    );
+})
+
+// new zealand section
+
+$("#newzealand-li-one").click(function () {
+    $("#newzealand-div").html(
+        `<img src="assets/images/nz-lakepukaki.jpg" alt="photo of Lake Pukaki">
+        <p>Lake Pukaki</p>
+        <hr class="country-title-hr">
+        <p>Lake Pukaki is a shimmering blue jewel set into a grand alpine playground - an iconic New
+        Zealand landscape of high mountain peaks and glacier fed alpine lakes.
+        Used for many major location scenes in The Lord of the Rings and The
+        Hobbit Trilogies, particularly ‘Lake-town’ in The Hobbit: The Desolation of Smaug (media
+        New Zealand.com)
+        </p>
+        `
+    );
+})
+
+$("#newzealand-li-two").click(function () {
+    $("#newzealand-div").html(
+        `<img src="assets/images/nz-hobbiton.jpg" alt="photo of Hobbiton">
+        <p>Hobbiton</p>
+        <hr class="country-title-hr">
+        <p>The lush dairy farming landscape around the Waikato town of Matamata was used to portray the peaceful Shire 
+        region of Middle‑earth™. The village of Hobbiton was created here with brilliant attention to detail.
+        It was later rebuilt for the filming of The Hobbit Trilogy and is now a permanent attraction. (newzealand.com)
+        </p>
+        `
+    );
+})
+
+$("#newzealand-li-three").click(function () {
+    $("#newzealand-div").html(
+        `<img src="assets/images/nz-cathedral-cove.jpg" alt="photo of Cathedral Cove">
+        <p>Cathedral Cove</p>
+        <hr class="country-title-hr">
+        <p>The set for the ruins of the castle Cair Paravel, in the Chronicles of Narnia- Prince Caspian, was built 
+        on the nearby Hereherataura Peninsula, overlooking iconic Cathedral Cove. From beautiful Hahei Beach on the 
+        Coromandel Peninsula you can walk to Cathedral Cove. (newzealand.com)
+        </p>
+        `
+    );
+})
+
+$("#newzealand-li-four").click(function () {
+    $("#newzealand-div").html(
+        `<img src="assets/images/nzfiordland.jpg" alt="photo of Fiordland National Park">
+        <p>Fiordland National Park</p>
+        <hr class="country-title-hr">
+        <p>The breathtaking landscapes of Fiordland National Park were used by director Ridley Scott who shot “Alien Covenant” 
+        around its most northern and accessible end. It offers some of the most jaw-dropping coastal scenery with magnificent 
+        dark blue waters and dramatic peaks. 
+        The almost always present low-lying clouds made a perfect otherworldly backdrop. (tripstodiscover.com)
+        </p>
+        `
+    );
+})
+
+$("#newzealand-li-five").click(function () {
+    $("#newzealand-div").html(
+        `<img src="assets/images/nz-mount-taranaki.jpg" alt="photo of Mount Taranaki">
+        <p>Mount Taranaki</p>
+        <hr class="country-title-hr">
+        <p>Most of the filming of The Last Samurai, starring Tom Cruise, took place near New Plymouth in Taranaki. 
+        A Japanese village was constructed for filming on the hillsides of the Uruti Valley, with Mount Taranaki 
+        standing in for ‘Mount Fuji‘. (newzealand.com)
         </p>
         `
     );
