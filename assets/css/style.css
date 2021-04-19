@@ -218,7 +218,8 @@ img {
     height: 60%;
 }
 
-#iceland-div {
+#iceland-div,
+#malta-div {
     height: auto;
     width: 80%;
     padding: 15px;

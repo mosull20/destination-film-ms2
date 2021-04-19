@@ -106,3 +106,73 @@ $("#iceland-li-five").click(function () {
         `
     );
 })
+
+// malta section
+
+$("#malta-li-one").click(function () {
+    $("#malta-div").html(
+        `<img src="assets/images/malta-city.jpg" alt="photo of Gozo">
+        <p>Gozo</p>
+        <hr class="country-title-hr">
+        <p>Malta and its two smaller satellite islands of Gozo and Comino have featured in various
+            productions,
+            arguably the most popular of which is Game of Thrones. Brad Pitt and Angelina Jolie filmed
+            the ultimately
+            prophetic break-up movie By the Sea on Gozo, the locations represented an idyllic version of
+            1960's France. (culture trip.)
+        </p>
+        `
+    );
+})
+
+$("#malta-li-two").click(function () {
+    $("#malta-div").html(
+        `<img src="assets/images/malta-popeye.jpg" alt="photo of Popeye village">
+        <p>Popeye village</p>
+        <hr class="country-title-hr">
+        <p>Popeye Village was constructed for the sole purpose of serving as the location for 1980’s Popeye movie. 
+        Soon after filming wrapped, it was abandoned, but the collection of wooden buildings sitting on the cliffs 
+        of Anchor Bay found a new lease of life as a theme park.
+        </p>
+        `
+    );
+})
+
+$("#malta-li-three").click(function () {
+    $("#malta-div").html(
+        `<img src="assets/images/malta-blue-lagoon.jpg" alt="photo of Popeye village">
+        <p>Blue Lagoon</p>
+        <hr class="country-title-hr">
+        <p>Malta’s smallest island, Comino, currently only has a population of three, yet thousands of people flock here
+        for one reason: the Blue Lagoon. Its mesmerising fluorescent waters are famous around the world.
+        The tiny island featured in several movies, including The Count of Monte Cristo (2002) and Swept Away (2002).
+        </p>
+        `
+    );
+})
+
+$("#malta-li-four").click(function () {
+    $("#malta-div").html(
+        `<img src="assets/images/malta-valetta.jpg" alt="photo of Valetta">
+        <p>Valetta</p>
+        <hr class="country-title-hr">
+        <p>Back in the capital – which ends up featuring in most of the movies already mentioned as well as a number 
+        of others exclusively filmed here – Valletta‘s forts and walled sections make it perfect for period films as 
+        well as fighting off zombies when it stood in for Jerusalem in World War Z(2013).
+        </p>
+        `
+    );
+})
+
+$("#malta-li-five").click(function () {
+    $("#malta-div").html(
+        `<img src="assets/images/malta-mdina.jpg" alt="photo of Mdina">
+        <p>Mdina</p>
+        <hr class="country-title-hr">
+        <p>Malta’s former capital, Mdina, known as the Silent City, is a medieval walled city with narrow streets, 
+        centuries-old buildings and, at its heart, a cathedral that dominates the skyline. Mdina featured in Game of Thrones, 
+        as did nearby Rabat, standing in for early depictions of King’s Landing. 
+        </p>
+        `
+    );
+})
