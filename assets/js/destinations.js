@@ -247,19 +247,6 @@ $("#newzealand-li-five").click(function () {
     );
 })
 
-// img src="assets/images/mor-ait-benhaddou.jpg" alt="photo of Ait Benhaddou">
-//                             <p>Aït Benhaddou</p>
-//                             <hr class="country-title-hr">
-//                             <p>The glorious earth-built traditional Berber ksar of Ait Ben Haddou is a dream come true
-//                                 for
-//                                 photographers and film-makers. The towering sand-colored walls,
-//                                 narrow interior pathways and staircases, traditional abodes, and panoramic vistas have
-//                                 featured in
-//                                 a number of movies, including Gladiator, Lawrence of Arabia, and Jewel of the Nile. Fans
-//                                 of Game of Thrones
-//                                 may recognize the glorious site as the fictitious Yellow City of Yunkai. (culture trip)
-//                             </p>
-
 // morocco section
 
 $("#morocco-li-one").click(function () {
@@ -330,6 +317,83 @@ $("#morocco-li-five").click(function () {
         <p>The popular coastal town of Essaouira was one of many global locations chosen to film Alexander, and it 
         was transformed for Kingdom of Heaven to represent ancient Jerusalem. If you love Game of Thrones you’ll 
         likely enjoy exploring Astapor; Essaouira was the setting for the fictitious area.  
+        </p>
+        `
+    );
+})
+
+// ireland section
+
+$("#ireland-li-one").click(function () {
+    $("#ireland-div").html(
+        `<img src="assets/images/irl-skellig-michael.jpg" alt="photo of Skellig Micheal">
+        <p>Skellig Michael</p>
+        <hr class="country-title-hr">
+        <p>Star Wars is the movie that made Skellig Michael even more famous than it was. While
+            looking
+            for a spot to act as the planet of Ahch To which featured at the end of The Force
+            Awakens,
+            it was decided that Skellig Michael was to be the galaxy far, far away.
+            (irelandbeforeyoudie.com).
+            Star Wars: The Last Jedi (2017) amped it up another level, with long scenes filmed not
+            just on the Skelligs,
+            but Malin Head in Co Donegal and on the Dingle Peninsula. (independent.ie)
+        </p>
+        `
+    );
+})
+
+$("#ireland-li-two").click(function () {
+    $("#ireland-div").html(
+        `<img src="assets/images/irl-powerscourt.jpg" alt="photo of Powerscourt Estate">
+        <p>Powerscourt</p>
+        <hr class="country-title-hr">
+        <p>The Powerscourt Estate with its Georgian elegance, beautiful gardens, sweeping terraces, 
+        cascading waterfall, lakes and hollows has been used in loads of movies and tv shows. If you love movies, 
+        then Powerscourt is a must-visit destination. (wildrovertours.com)
+         Over 25 movies or TV shows have filmed at Powerscourt House and Gardens, including King Arthur, 
+         Excalibur, Mary Shelley, Love Rosie, the Count of Monte Cristo & The Tudors. 
+        </p>
+        `
+    );
+})
+$("#ireland-li-three").click(function () {
+    $("#ireland-div").html(
+        `<img src="assets/images/irl-cliffsofmoher.jpg" alt="photo of Cliffs of Moher">
+        <p>Cliffs of Moher</p>
+        <hr class="country-title-hr">
+        <p>Ireland's hero image? The Cliffs of Moher have appeared in numerous movies, including 
+        Harry Potter and the Half-Blood Prince (2009), Leap Year (2010), Into the West (1992) and Hear My Song (1991). 
+        Our favourite has got to be their role as the Cliffs of Insanity in Rob Reiner's meta-fairytale fantasy 
+        The Princess Bride (1987). A brief but brilliant cameo. Leave them out? Inconceivable! (independent.ie)
+        </p>
+        `
+    );
+})
+
+$("#ireland-li-four").click(function () {
+    $("#ireland-div").html(
+        `<img src="assets/images/irl-kilmainham.jpg" alt="photo of Kilmainham Gaol">
+        <p>Kilmainham Gaol</p>
+        <hr class="country-title-hr">
+        <p>Many of the jail scenes for In the Name of the Father (1993) were filmed at this historic location, 
+        but it's not just Daniel Day Lewis and Co who have breathed new life into the creepy old interiors. 
+        Kilmainham has also featured in The Italian Job (1969), Michael Collins (1996), The Wind that Shakes the Barley (2006) 
+        and BBC's Ripper Street among others. It closed its doors as a prison in 1924, but is one of Dublin's top visitor 
+        attractions today. (independent.ie)
+        </p>
+        `
+    );
+})
+
+$("#ireland-li-five").click(function () {
+    $("#ireland-div").html(
+        `<img src="assets/images/irl-loughtay.jpg" alt="photo of Lough Tay">
+        <p>Lough Tay</p>
+        <hr class="country-title-hr">
+        <p>This Wicklow wonder features in several movie and tv shows, Vikings (since 2013) is the most recent, though this 
+        was also a setting for Leap Year (2010), Becoming Jane (2007) with Anne Hathaway and a famous scene in John Boorman's Excalibur (1981).
+        Wicklow, once dubbed "the Hollywood of Europe" by Jane Seymour, is home to oodles of famous movie and TV locations. 
         </p>
         `
     );
