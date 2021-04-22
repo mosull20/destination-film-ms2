@@ -111,7 +111,7 @@ $("#iceland-li-five").click(function () {
 
 $("#malta-li-one").click(function () {
     $("#malta-div").html(
-        `<img src="assets/images/malta-city.jpg" alt="photo of Gozo">
+        `<img src="assets/images/malta-gozo.jpg" alt="photo of Gozo">
         <p>Gozo</p>
         <hr class="country-title-hr">
         <p>Malta and its two smaller satellite islands of Gozo and Comino have featured in various
