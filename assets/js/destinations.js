@@ -398,3 +398,43 @@ $("#ireland-li-five").click(function () {
         `
     );
 })
+
+// Weather API 
+
+// function getIcelandData() {
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+    .then(response => response.json())
+    .then(data => {
+        let cityName = data['name'];
+        let cityWeatherDesc = data['weather'][0]['description'];
+        let cityTemp = Math.round(data['main']['temp']);
+        var iconcode = data['weather'][0]['icon'];
+        var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+        $('.wicon').attr('src', iconurl);
+
+        document.getElementsByClassName("city-name")[0].innerHTML = cityName;
+        document.getElementsByClassName("city-description")[0].innerHTML = cityWeatherDesc;
+        document.getElementsByClassName("city-temp")[0].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
+        document.getElementsByClassName("wicon")[0].classList.remove("hidden");
+    })
+// }
+// document.getElementById("iceland-weather-btn").addEventListener('click', getIcelandData);
+
+function getMaltaData() {
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+        .then(response => response.json())
+        .then(data => {
+            let cityName = data['name'];
+            let cityWeatherDesc = data['weather'][0]['description'];
+            let cityTemp = Math.round(data['main']['temp']);
+            var iconcode = data['weather'][0]['icon'];
+            var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+            $('.wicon').attr('src', iconurl);
+
+            document.getElementsByClassName("city-name")[1].innerHTML = cityName;
+            document.getElementsByClassName("city-description")[1].innerHTML = cityWeatherDesc;
+            document.getElementsByClassName("city-temp")[1].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
+            document.getElementsByClassName("wicon")[1].classList.remove("hidden");
+        })
+}
+document.getElementById("malta-weather-btn").addEventListener('click', getMaltaData);
