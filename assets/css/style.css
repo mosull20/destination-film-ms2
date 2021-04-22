@@ -272,14 +272,26 @@ ul {
 /* Weather section */
 .weather-box {
     text-align: center;
-    width: 50%;
-    height: 300px;
-    background-color: rgb(247, 245, 245);
+    width: 80%;
+    background-color: rgb(207, 214, 241);
     margin-left: 25%;
     margin-right: 25%;
     margin-bottom: 30px;
+    margin-top: 15px;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px 10px #616775;
+}
+
+.weather-box h2,
+h3 {
+    font-size: 20px;
+}
+
+#iceland-weather h3 {
+    padding-left: 10px;
+}
+
+#iceland-weather p {
+    font-size: 18px;
 }
 
 .weather-box p {
@@ -290,6 +302,7 @@ ul {
 
 
 
+#iceland-weather,
 #malta-weather {
     height: auto;
 }
