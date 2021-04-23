@@ -21,6 +21,12 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 
     <title>Destination Film</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_6yXNp9LRv4mP4BIn4U1po");
+        })();
+    </script>
 </head>
 
 <body>
@@ -62,7 +68,7 @@
             <div class="row contact-heading-row">
 
                 <div class="col-12 col-md-6 contact-col">
-                    <form class="contact-form">
+                    <form class="contact-form" onsubmit="return sendMail(this);">
                         <h2 class="contact-heading">Get in touch</h2>
                         <div class="form-group">
                             <label for="name">Your Name</label>
@@ -72,7 +78,7 @@
 
                         <div class="form-group">
                             <label for="email">Email Address</label>
-                            <input type="email" class="form-control text-input" id="email" name="email"
+                            <input type="email" class="form-control text-input" id="email" name="emailaddress"
                                 aria-describedby="emailHelp" placeholder="Your Email Address" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
@@ -141,6 +147,8 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
     <script src="assets/js/script.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
+
 </body>
 
 </html>

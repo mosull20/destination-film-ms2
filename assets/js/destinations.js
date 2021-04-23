@@ -401,7 +401,7 @@ $("#ireland-li-five").click(function () {
 
 // Weather API 
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?lat=64.1466&lon=21.9426&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -422,7 +422,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik&units=metric&
         document.getElementsByClassName("wicon")[0].classList.remove("hidden");
     })
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?lat=35.8989&lon=14.5146&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -443,7 +443,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta&units=metric&a
     })
 
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?lat=-41.2924&lon=174.77557&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -462,7 +462,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington&units=metric
         img.classList.remove("hidden");
     })
 
-fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?lat=33.9716&lon=6.8498&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];

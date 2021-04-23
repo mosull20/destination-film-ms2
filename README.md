@@ -66,7 +66,7 @@ The primary goal of the website from a user's perspective is to find out about s
 
   + Malta content taken primarily from [The Culture Trip](https://theculturetrip.com/europe/malta/articles/a-guide-to-the-spectacular-film-and-tv-locations-of-malta/) with the addition of some content from [Visit Malta](https://www.visitmalta.com/en/filming-in-malta)
 
-  + New Zealand content taken from [New Zealand.com](https://www.newzealand.com/us/feature/top-10-film-locations-in-new-zealand/) & [The Culture Trip](https://theculturetrip.com/?s=new+zealand+filming)
+  + New Zealand content taken from [New Zealand.com](https://www.newzealand.com/us/feature/top-10-film-locations-in-new-zealand/) & [The Culture Trip](https://theculturetrip.com/?s=new+zealand+filming) & [Trips to discover.com](https://www.tripstodiscover.com/top-fantasy-film-locations-in-new-zealand/)
 
   + Morocco content taken from [The Culture Trip](https://theculturetrip.com/africa/morocco/articles/the-majestic-beauty-of-morocco-captured-on-film/) 
 
