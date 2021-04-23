@@ -59,6 +59,21 @@ The primary goal of the website from a user's perspective is to find out about s
 
 ### Content
 
+* Home page paragraph text content taken from [National Geographic](https://www.nationalgeographic.com/travel/article/visit-movie-film-sites-nat-geo-almanac) 
+
+* Destinations page
+  + Iceland content taken from [Guide to Iceland](https://guidetoiceland.is/history-culture/movie-locations-in-iceland#fortitude-2015-reydarfjordur-fjord) & [Film in Iceland](https://filminiceland.com/made-in-iceland/)
+
+  + Malta content taken primarily from [The Culture Trip](https://theculturetrip.com/europe/malta/articles/a-guide-to-the-spectacular-film-and-tv-locations-of-malta/) with the addition of some content from [Visit Malta](https://www.visitmalta.com/en/filming-in-malta)
+
+  + New Zealand content taken from [New Zealand.com](https://www.newzealand.com/us/feature/top-10-film-locations-in-new-zealand/) & [The Culture Trip](https://theculturetrip.com/?s=new+zealand+filming)
+
+  + Morocco content taken from [The Culture Trip](https://theculturetrip.com/africa/morocco/articles/the-majestic-beauty-of-morocco-captured-on-film/) 
+
+  + Ireland content taken primarily from [The Independent](https://www.independent.ie/life/travel/ireland/top-25-movie-and-tv-locations-to-visit-in-ireland-from-father-ted-to-game-of-thrones-38006573.html) with additional content from [Wild Rover Tours](https://wildrovertours.com/blog/spectacular-filming-locations-ireland/)
+
+* Contact page - movie/travel quotes taken from [Buzzfeed.com](https://www.buzzfeed.com/kimberleydadds/adventure-is-out-there)
+
 ### Code
 
 ### Media
