@@ -36,6 +36,16 @@ footer {
 
 footer a {
     color: rgb(66, 64, 64);
+    text-decoration: none;
+}
+
+.social-media a {
+    padding-right: 15px;
+}
+
+footer a:hover {
+    color: rgb(66, 64, 64);
+    text-decoration: none;
 }
 
 #footer-hr {
@@ -69,6 +79,11 @@ h1 {
 .headline-text a {
     color: whitesmoke;
     font-size: 20px;
+    text-decoration: none;
+}
+
+.headline-text i {
+    font-size: 18px;
 }
 
 /* Intro section */
@@ -93,8 +108,15 @@ h1 {
 
 .info-text a {
     color: rgb(66, 64, 64);
-    font-size: 30px;
+    font-size: 20px;
+    text-decoration: none;
 }
+
+.info-text i {
+    font-size: 18px;
+}
+
+
 
 /* DESTINATIONS PAGE - heading and nav*/
 
@@ -312,6 +334,15 @@ h3 {
     height: 80px;
 }
 
+.up-arrow {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.up-arrow i {
+    font-size: 35px;
+    color: rgb(128, 125, 125);
+}
 
 
 /* Contact page */
