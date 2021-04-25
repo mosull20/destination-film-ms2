@@ -1,4 +1,5 @@
-// create an array of quotes
+// Create an Array of quotes
+
 var myQuotes = [
     `"Life moves pretty fast. If you don't stop and look around once in a while, you could miss it" <br> <span>- Ferris Bueller's Day Off</span>`,
     `"The world is not in your books and maps, it's out there." <br> <span>- The Hobbit: An Unexpected Journey</span>`,
@@ -14,16 +15,38 @@ var myQuotes = [
     <br> <span>- Transformers</span>`,
     `"To live would be an awfully big adventure" <br> <span>- Peter Pan</span>`
 ];
-// function to iterate through quotes, displaying one at a time 
 
 
+// function to display the quotes array randomly - Fisher Yates shuffle code from https://www.bost.ocks.org/mike/shuffle
+
+function shuffle(array) {
+    var m = array.length,
+        t, i;
+    // While there remain elements to shuffle…
+    while (m) {
+        // Pick a remaining element…
+        i = Math.floor(Math.random() * m--);
+        // And swap it with the current element.
+        t = array[m];
+        array[m] = array[i];
+        array[i] = t;
+    }
+}
+// function to iterate through quotes, displaying one at a time for a set time
 
 function changeQuotes() {
     var timer = 0;
     for (let i = 0; i < myQuotes.length; i++) {
         setTimeout(() => document.getElementById("quotes-box").innerHTML = myQuotes[i], timer);
-        timer = timer + 5000
+        timer = timer + 4000;
+        // inner loop to repeat 
+        for (let j = 0; j < myQuotes.length; j++) {
+            setTimeout(() => document.getElementById("quotes-box").innerHTML = myQuotes[j], timer);
+            timer = timer + 4000;
+        }
+        // call the shuffle function
+        shuffle(myQuotes);
     }
 }
-//function call
+// call the changeQuotes function
 changeQuotes();
