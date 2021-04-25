@@ -571,4 +571,25 @@ blockquote span {
         padding: 5px;
     }
 
+    .quotes-col {
+        padding-top: 15px;
+        background-color: rgb(207, 214, 241);
+        color: rgb(66, 64, 64);
+    }
+
+    blockquote {
+        padding-top: 20px;
+        color: rgb(66, 64, 64);
+        font-size: 28px;
+    }
+
+    #contact-section {
+        background: url('../images/ireland-maeve-filter.jpg') no-repeat center center fixed;
+        height: auto;
+    }
+
+    .contact-col {
+        padding-bottom: 25px;
+    }
+
 }
