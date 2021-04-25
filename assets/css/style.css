@@ -377,7 +377,7 @@ h3 {
 
 /* Contact page */
 #contact-section {
-    background: url('../images/ireland-maeve-filter.jpg') no-repeat center center fixed;
+    background: url('../images/iceland-night-lights.jpg') no-repeat center center fixed;
     background-size: cover;
     background-color: rgb(66, 64, 64);
     width: auto;
@@ -584,7 +584,7 @@ blockquote span {
     }
 
     #contact-section {
-        background: url('../images/ireland-maeve-filter.jpg') no-repeat center center fixed;
+        background: url('../images/iceland-night-lights.jpg') no-repeat center center fixed;
         height: auto;
     }
 
