@@ -401,7 +401,7 @@ $("#ireland-li-five").click(function () {
 
 // Weather API 
 
-fetch('https://api.openweathermap.org/data/2.5/weather?lat=64.1466&lon=21.9426&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -422,7 +422,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=64.1466&lon=21.9426&u
         document.getElementsByClassName("wicon")[0].classList.remove("hidden");
     })
 
-fetch('https://api.openweathermap.org/data/2.5/weather?lat=35.8989&lon=14.5146&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -443,7 +443,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=35.8989&lon=14.5146&u
     })
 
 
-fetch('https://api.openweathermap.org/data/2.5/weather?lat=-41.2924&lon=174.77557&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -462,7 +462,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=-41.2924&lon=174.7755
         img.classList.remove("hidden");
     })
 
-fetch('https://api.openweathermap.org/data/2.5/weather?lat=33.9716&lon=6.8498&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];
@@ -482,7 +482,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=33.9716&lon=6.8498&un
         img.classList.remove("hidden");
     })
 
-fetch('https://api.openweathermap.org/data/2.5/weather?lat=53.342&lon=-6.266&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
         let cityName = data['name'];

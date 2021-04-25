@@ -15,6 +15,7 @@ body {
 /* Background-image main section */
 #headline-section {
     background: url('../images/iceland-hero-filter.jpg') no-repeat center center fixed;
+    background-size: cover;
     background-color: rgb(66, 64, 64);
     width: auto;
     height: 100vh;
@@ -22,10 +23,26 @@ body {
 }
 
 /* Nav bar links */
-#headline-section a {
+#headline-section .navbar-brand {
     font-size: 20px;
     color: rgb(247, 245, 245);
 }
+
+.nav-item a {
+    font-size: 20px;
+    color: rgb(247, 245, 245);
+}
+
+
+.hambuger-menu-icon {
+    font-size: 30px;
+    color: rgba(247, 245, 245, 0.8);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
 
 /* Footer */
 footer {
@@ -121,11 +138,16 @@ h1 {
 /* DESTINATIONS PAGE - heading and nav*/
 
 .destinations-header {
-    background-color: rgb(207, 214, 241);
+    color: rgb(247, 245, 245);
 }
 
 .destinations-nav a {
-    color: rgb(66, 64, 64);
+    font-size: 20px;
+    color: rgb(247, 245, 245);
+}
+
+#country-iceland a {
+    color: rgb(247, 245, 245);
 }
 
 /* DESTINATIONS PAGE - country sections general */
@@ -142,7 +164,10 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
+    text-align: center;
 }
+
+
 
 .country-text a {
     color: rgb(247, 245, 245);
@@ -157,9 +182,15 @@ h1 {
     background-repeat: no-repeat;
     background-color: rgb(66, 64, 64);
     width: 100%;
-    height: 300px;
+    height: 45vh;
     text-align: center;
     position: relative;
+}
+
+
+
+.iceland-title {
+    margin-top: 70px;
 }
 
 /* Malta box */
@@ -170,7 +201,7 @@ h1 {
     background-repeat: no-repeat;
     background-color: rgb(66, 64, 64);
     width: 100%;
-    height: 300px;
+    height: 35vh;
     text-align: center;
     position: relative;
 }
@@ -219,7 +250,6 @@ h1 {
 .destinations-info-text {
     text-align: center;
     padding: 40px;
-    /* background-color: rgb(207, 214, 241); */
     color: rgb(66, 64, 64);
 }
 
@@ -245,7 +275,7 @@ h1 {
 }
 
 .box-one {
-    height: 800px;
+    height: auto;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 40px;
@@ -255,7 +285,7 @@ h1 {
 
 img {
     width: 100%;
-    height: 50%;
+    height: auto;
 }
 
 #iceland-div,
@@ -263,12 +293,12 @@ img {
 #newzealand-div,
 #morocco-div,
 #ireland-div {
-    height: 600px;
+    height: auto;
     width: 90%;
     padding: 15px;
     text-align: center;
     border-radius: 5px;
-    box-shadow: 10px 10px 10px 10px #616775;
+    box-shadow: 5px 5px 5px 5px rgb(180, 185, 206);
     margin-left: 25px;
 }
 
@@ -321,11 +351,11 @@ h3 {
     text-transform: uppercase;
 }
 
-
-
-
 #iceland-weather,
-#malta-weather {
+#malta-weather,
+#new-zealand-weather,
+#morocco-weather,
+#ireland-weather {
     height: auto;
 }
 
@@ -357,7 +387,7 @@ h3 {
 
 #contact-section a {
     font-size: 20px;
-    color: rgb(247, 245, 245);
+    color: rgba(247, 245, 245, 0.8);
 }
 
 .contact-heading-row {
@@ -367,12 +397,12 @@ h3 {
 
 /* Form all from love running*/
 .contact-form {
-    color: #fff;
+    color: rgba(247, 245, 245, 0.8);
 
 }
 
 .contact-form h2 {
-    color: #fafafa;
+    color: rgba(247, 245, 245, 0.8);
     margin-bottom: 20px;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
@@ -387,7 +417,7 @@ h3 {
 .text-input {
     background: transparent;
     border-color: rgb(123, 121, 148);
-    color: #fafafa;
+    color: rgba(247, 245, 245, 0.8);
     background-color: rgba(60, 60, 60, 0.2);
     width: 80%;
     margin: auto;
@@ -400,10 +430,11 @@ h3 {
 
 .btn {
     border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+    padding: 10px 20px 10px 20px;
     text-align: center;
-    background-color: #4752b8;
-    color: #fafafa;
+    background-color: rgb(207, 214, 241);
+    color: rgb(66, 64, 64);
+    font-size: 20px;
 
 }
 
@@ -415,7 +446,7 @@ h3 {
 
 blockquote {
     padding-top: 80px;
-    color: cornsilk;
+    color: rgba(247, 245, 245, 0.8);
     font-family: 'Caveat', cursive;
     font-size: 40px;
 }
@@ -436,6 +467,10 @@ blockquote span {
 /* Media Queries */
 
 @media screen and (max-width: 767px) {
+
+    .nav-item a {
+        font-size: 14px;
+    }
 
     .headline-text {
         font-size: 20px;
@@ -467,6 +502,73 @@ blockquote span {
 
     .footer-item {
         height: 30px;
+    }
+
+    .country-text h1 {
+        font-size: 30px;
+    }
+
+    .iceland-title {
+        margin-top: 40px;
+    }
+
+    .country-text {
+        top: 70px;
+        width: 80%;
+    }
+
+    .destinations-info-text {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .weather-box {
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #iceland-weather {
+        padding: 5px;
+    }
+
+    .destinations-info-text p {
+        padding: 20px 5px 15px 5px;
+        font-size: 18px;
+    }
+
+    .destinations-info-text ul {
+        padding-left: 5px;
+    }
+
+    #iceland-div,
+    #malta-div,
+    #newzealand-div,
+    #morocco-div,
+    #ireland-div {
+        margin-left: 15px;
+    }
+
+    #contact-section .nav-item a {
+        font-size: 14px;
+    }
+
+    .contact-heading-row {
+        padding-top: 20px;
+    }
+
+    .contact-form h2 {
+        font-size: 25px;
+    }
+
+    .text-input {
+        width: 100%;
+    }
+
+    .form-group {
+        padding: 5px;
     }
 
 }

@@ -70,7 +70,7 @@ The primary goal of the website from a user's perspective is to find out about s
 
   + Morocco content taken from [The Culture Trip](https://theculturetrip.com/africa/morocco/articles/the-majestic-beauty-of-morocco-captured-on-film/) 
 
-  + Ireland content taken primarily from [The Independent](https://www.independent.ie/life/travel/ireland/top-25-movie-and-tv-locations-to-visit-in-ireland-from-father-ted-to-game-of-thrones-38006573.html) with additional content from [Wild Rover Tours](https://wildrovertours.com/blog/spectacular-filming-locations-ireland/)
+  + Ireland content taken primarily from [The Independent](https://www.independent.ie/life/travel/ireland/top-25-movie-and-tv-locations-to-visit-in-ireland-from-father-ted-to-game-of-thrones-38006573.html) with additional content from [Wild Rover Tours](https://wildrovertours.com/blog/spectacular-filming-locations-ireland/) & [Ireland before you die.com](https://www.irelandbeforeyoudie.com/ten-filming-locations-ireland-you-can-visit/)
 
 * Contact page - movie/travel quotes taken from [Buzzfeed.com](https://www.buzzfeed.com/kimberleydadds/adventure-is-out-there)
 
