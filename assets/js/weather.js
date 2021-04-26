@@ -13,7 +13,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metr
 
         //Set the src property of our element to the new image URL
         img.src = iconurl;
-        console.log(iconcode);
 
         document.getElementsByClassName("city-name")[0].innerHTML = cityName + `: `;
         document.getElementsByClassName("city-description")[0].innerHTML = cityWeatherDesc;
@@ -33,7 +32,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metri
         var img = document.getElementsByClassName("wicon")[1];
         //Set the src property of our element to the new image URL
         img.src = iconurl;
-        console.log(iconcode);
 
         document.getElementsByClassName("city-name")[1].innerHTML = cityName + `: `;;
         document.getElementsByClassName("city-description")[1].innerHTML = cityWeatherDesc;
@@ -54,7 +52,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=met
         var img = document.getElementsByClassName("wicon")[2];
         //Set the src property of our element to the new image URL
         img.src = iconurl;
-        console.log(iconcode);
+
         document.getElementsByClassName("city-name")[2].innerHTML = cityName + `: `;;
         document.getElementsByClassName("city-description")[2].innerHTML = cityWeatherDesc;
         document.getElementsByClassName("city-temp")[2].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
@@ -73,7 +71,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&a
         var img = document.getElementsByClassName("wicon")[3];
         //Set the src property of our element to the new image URL
         img.src = iconurl;
-        console.log(iconcode);
 
         document.getElementsByClassName("city-name")[3].innerHTML = cityName + `: `;;
         document.getElementsByClassName("city-description")[3].innerHTML = cityWeatherDesc;
@@ -94,7 +91,6 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&
 
         //Set the src property of our element to the new image URL
         img.src = iconurl;
-        console.log(iconcode);
 
         document.getElementsByClassName("city-name")[4].innerHTML = cityName + `: `;;
         document.getElementsByClassName("city-description")[4].innerHTML = cityWeatherDesc;

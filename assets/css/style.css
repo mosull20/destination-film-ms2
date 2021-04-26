@@ -25,12 +25,14 @@ body {
 /* Nav bar links */
 #headline-section .navbar-brand {
     font-size: 20px;
+    font-weight: 400;
     color: rgb(247, 245, 245);
 }
 
 .nav-item a {
     font-size: 20px;
     color: rgb(247, 245, 245);
+    font-weight: 400;
 }
 
 
@@ -144,6 +146,7 @@ h1 {
 .destinations-nav a {
     font-size: 20px;
     color: rgb(247, 245, 245);
+    font-weight: 400;
 }
 
 #country-iceland a {
@@ -391,6 +394,7 @@ h3 {
 
 #contact-section a {
     font-size: 20px;
+    font-weight: 400;
     color: rgba(247, 245, 245, 0.8);
 }
 

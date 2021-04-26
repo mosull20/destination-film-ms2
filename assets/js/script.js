@@ -49,4 +49,4 @@ function changeQuotes() {
     }
 }
 // call the changeQuotes function
-changeQuotes();
+$(document).ready(changeQuotes());
