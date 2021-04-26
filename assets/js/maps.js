@@ -151,7 +151,7 @@ function initMap() {
     // section to show map on morocco page
 
     var map = new google.maps.Map(document.getElementById("map-four"), {
-        zoom: 6,
+        zoom: 5,
         center: {
             lat: 31.794525,
             lng: -7.0849336
