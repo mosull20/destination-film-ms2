@@ -314,7 +314,11 @@ ul {
     list-style: none;
 }
 
-#map-one {
+#map-one,
+#map-two,
+#map-three,
+#map-four,
+#map-five {
     display: inline-block;
     width: auto;
     height: 40vh;
