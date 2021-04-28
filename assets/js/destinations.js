@@ -43,7 +43,7 @@ $(document).ready(function () {
 
 });
 
-// function to push html depending on which heading the user clicks on
+// function to push html depending on which place name the user clicks on
 $("#iceland-li-one").click(function () {
     $("#iceland-div").html(
         `<img src="assets/images/dettifoss.jpg" alt="photo of Dettifoss waterfall">
