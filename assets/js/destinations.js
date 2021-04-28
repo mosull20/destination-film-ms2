@@ -1,5 +1,6 @@
-// function to display the relevant div on clicking 
+// Jquery in use throughout
 
+// function to display the relevant div on clicking 
 $(document).ready(function () {
     $("#arrow-iceland").click(function () {
         $("#display-country-details-iceland").show();

@@ -76,6 +76,8 @@ The primary goal of the website from a user's perspective is to find out about s
 
 ### Code
 
++ Code for how to display the weather icon from OpenWeatherMap api - solution found on [Stack Overflow - here](https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon/62369654#62369654)
+
 ### Media
 
 #### Images

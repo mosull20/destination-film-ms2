@@ -48,5 +48,5 @@ function changeQuotes() {
         shuffle(myQuotes);
     }
 }
-// call the changeQuotes function
+// call the changeQuotes function when page has loaded
 $(document).ready(changeQuotes());

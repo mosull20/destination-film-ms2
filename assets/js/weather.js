@@ -1,4 +1,4 @@
-// Weather API 
+// Weather API - OpenWeatherMap.org 
 
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
