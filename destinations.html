@@ -24,7 +24,7 @@
 
 <body>
 
-    <!-- Nav Bar -->
+    <!-- Nav Bar - Bootstrap in use for navbar, hover.css in use on links -->
     <header class="destinations-header">
         <section id="country-iceland">
             <div class="container-fluid destinations-nav">
@@ -54,7 +54,7 @@
             </div>
     </header>
 
-    <!-- Countries sections -->
+    <!------ Countries sections, Bootstrap container class in use ------>
 
     <!-- Country 1 - Iceland -->
 
@@ -102,13 +102,13 @@
         </div>
     </section>
 
-    <!-- section showing all the country details & map -->
-    <!---------------------------------------- Iceland ------------------------------------------------>
+    <!-- section showing all the country details & map, Bootstrap in use for grid layout -->
+    <!-- Iceland -->
     <section id="display-country-details-iceland" class="hidden">
         <div class="container-fluid">
             <div class="destinations-info-text">
                 <h2>Iceland</h2>
-
+                <!-- div to hold info from weather api -->
                 <div class="row">
                     <div class="weather-box">
                         <div id="iceland-weather">
@@ -160,7 +160,7 @@
 
                         </div>
                     </div>
-
+                    <!-- div to hold map from google maps api -->
                     <div id="map-one" class="col-12 col-md-5 offset-md-1">
                     </div>
                 </div>
@@ -172,11 +172,12 @@
             </div>
         </div>
     </section>
-    <!---------------------------------------- Malta ------------------------------------------------>
+    <!-- Malta -->
     <section id="display-country-details-malta" class="hidden">
         <div class="container-fluid">
             <div class="destinations-info-text">
                 <h2>Malta</h2>
+                <!-- div to hold info from weather api -->
                 <div class="row">
                     <div class="weather-box">
                         <div id="malta-weather">
@@ -226,7 +227,7 @@
                             </p>
                         </div>
                     </div>
-
+                    <!-- div to hold map from google maps api -->
                     <div id="map-two" class="col-12 col-md-5 offset-md-1">
 
                     </div>
@@ -244,6 +245,7 @@
         <div class="container-fluid">
             <div class="destinations-info-text">
                 <h2>New Zealand</h2>
+                <!-- div to hold info from weather api -->
                 <div class="row">
                     <div class="weather-box">
                         <div id="new-zealand-weather">
@@ -289,7 +291,7 @@
                             </p>
                         </div>
                     </div>
-
+                    <!-- div to hold map from google maps api -->
                     <div id="map-three" class="col-12 col-md-5 offset-md-1">
 
                     </div>
@@ -306,6 +308,7 @@
         <div class="container-fluid">
             <div class="destinations-info-text">
                 <h2>Morocco</h2>
+                <!-- div to hold info from weather api -->
                 <div class="row">
                     <div class="weather-box">
                         <div id="morocco-weather">
@@ -354,11 +357,8 @@
 
                         </div>
                     </div>
-
+                    <!-- div to hold map from google maps api -->
                     <div id="map-four" class="col-12 col-md-5 offset-md-1">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6784642.88168817!2d-10.62366214606088!3d33.86868648762084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b88619651c58d%3A0xd9d39381c42cffc3!2sMorocco!5e0!3m2!1sen!2sie!4v1618848716979!5m2!1sen!2sie"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div class="row">
@@ -374,6 +374,7 @@
 
             <div class="destinations-info-text">
                 <h2>Ireland</h2>
+                <!-- div to hold info from weather api -->
                 <div class="row">
                     <div class="weather-box">
                         <div id="ireland-weather">
@@ -425,11 +426,9 @@
                             </p>
                         </div>
                     </div>
-
+                    <!-- div to hold map from google maps api -->
                     <div id="map-five" class="col-12 col-md-5 offset-md-1">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2436250.798135223!2d-10.198326876795747!3d53.394235660592685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485e619e5d73698f%3A0xca9b39444d6ac68d!2sIreland!5e0!3m2!1sen!2sie!4v1618849973608!5m2!1sen!2sie"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
                     </div>
                 </div>
                 <div class="row">
@@ -439,7 +438,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer - Bootstrap classes in use for footer layout, Hover.css effect in use on links -->
 
     <footer>
         <div class="container-fluid">
@@ -474,7 +473,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+
+
     <script src="assets/js/maps.js"></script>
+    <!-- Google Maps API script links required -->
     <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpuSdx3LUyscAKTFvYTZScF8OlB86TTn0&callback=initMap">
     </script>

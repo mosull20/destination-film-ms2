@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Oswald:wght@300&family=Josefin+Sans:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fira+Sans:wght@100;200;300;400;500;600;700&family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -12,17 +12,15 @@ body {
     padding: 0;
 }
 
-/* Background-image main section */
-#headline-section {
-    background: url('../images/iceland-hero-filter.jpg') no-repeat center center fixed;
-    background-size: cover;
-    background-color: rgb(66, 64, 64);
-    width: auto;
-    height: 100vh;
-    position: relative;
+/* ----- Headings ------- */
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(247, 245, 245);
 }
 
-/* Nav bar links */
+
+/* ----- Navigation Bar ------- */
 #headline-section .navbar-brand {
     font-size: 20px;
     font-weight: 400;
@@ -46,7 +44,7 @@ body {
 }
 
 
-/* Footer */
+/* ------- Footer -------- */
 footer {
     background-color: rgb(207, 214, 241);
     color: rgb(66, 64, 64);
@@ -74,6 +72,17 @@ footer a:hover {
     border: 1px solid;
 }
 
+/* ------- Home Page -------- */
+
+/* Background-image main section */
+#headline-section {
+    background: url('../images/iceland-hero-filter.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(66, 64, 64);
+    width: auto;
+    height: 100vh;
+    position: relative;
+}
 
 /* Heading over background image */
 .headline-text {
@@ -86,13 +95,6 @@ footer a:hover {
     font-size: 30px;
     letter-spacing: 3px;
     opacity: 0.8;
-}
-
-h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: rgb(247, 245, 245);
 }
 
 .headline-text a {
@@ -137,7 +139,8 @@ h1 {
 
 
 
-/* DESTINATIONS PAGE - heading and nav*/
+/* ------- DESTINATIONS PAGE --------- */
+/* Heading and Nav */
 
 .destinations-header {
     color: rgb(247, 245, 245);
@@ -170,27 +173,31 @@ h1 {
     text-align: center;
 }
 
-
-
 .country-text a {
     color: rgb(247, 245, 245);
     text-decoration: none;
 }
 
-/* Iceland box */
-#country-iceland {
-    background-image: url('../images/iceland-glacier.jpg');
+/* All boxes */
+#country-iceland,
+#country-malta,
+#country-new-zealand,
+#country-morocco,
+#country-ireland {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgb(66, 64, 64);
     width: 100%;
-    height: 45vh;
     text-align: center;
     position: relative;
 }
 
-
+/* Iceland box */
+#country-iceland {
+    background-image: url('../images/iceland-glacier.jpg');
+    height: 45vh;
+}
 
 .iceland-title {
     margin-top: 70px;
@@ -199,53 +206,25 @@ h1 {
 /* Malta box */
 #country-malta {
     background-image: url('../images/malta-sea.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(66, 64, 64);
-    width: 100%;
     height: 35vh;
-    text-align: center;
-    position: relative;
 }
 
 /* New Zealand box */
 #country-new-zealand {
     background-image: url('../images/new-zealand-hobbit-house.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(66, 64, 64);
-    width: 100%;
     height: 35vh;
-    text-align: center;
-    position: relative;
 }
 
 /* Morocco box */
 #country-morocco {
     background-image: url('../images/morocco-own.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(66, 64, 64);
-    width: 100%;
     height: 35vh;
-    text-align: center;
-    position: relative;
 }
 
 /* Ireland box */
 #country-ireland {
     background-image: url('../images/ireland-1-v2.jpg');
-    background-position: right;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(66, 64, 64);
-    width: 100%;
     height: 35vh;
-    text-align: center;
-    position: relative;
 }
 
 /* Hidden Div section - general */
@@ -407,29 +386,23 @@ h3 {
     text-align: center;
 }
 
-/* Form all from love running*/
+
 .contact-form {
     color: rgba(247, 245, 245, 0.8);
-
 }
 
 .contact-heading {
     color: rgba(247, 245, 245, 0.8);
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-family: 'Josefin Sans', sans-serif;
     padding-top: 30px;
-}
-
-.contact-form p {
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 .form-group {
     padding: 10px 20px 10px 20px;
-
 }
 
+/* Some styling for form taken from Love running mini-project */
 .text-input {
     background: transparent;
     border-color: rgb(123, 121, 148);
@@ -437,7 +410,6 @@ h3 {
     background-color: rgba(60, 60, 60, 0.2);
     width: 80%;
     margin: auto;
-
 }
 
 .text-input:hover {
@@ -451,7 +423,6 @@ h3 {
     background-color: rgb(207, 214, 241);
     color: rgb(66, 64, 64);
     font-size: 20px;
-
 }
 
 /* Quotes box */
@@ -475,12 +446,7 @@ blockquote span {
 
 
 
-
-
-
-
-
-/* Media Queries */
+/* ----- Media Queries -----  */
 
 @media screen and (max-width: 767px) {
 
