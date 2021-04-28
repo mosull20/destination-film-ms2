@@ -317,6 +317,10 @@ ul {
     list-style: none;
 }
 
+.place-list-items {
+    cursor: pointer;
+}
+
 #map-one,
 #map-two,
 #map-three,
