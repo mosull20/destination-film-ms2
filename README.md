@@ -69,10 +69,14 @@ The final design has differed from the wireframes based on what I felt worked be
 * [OpenWeatherMap](https://openweathermap.org/api) - Weather API used to generate current weather details for capital cities in each country featured
 * [EmailJS](https://www.emailjs.com/) - Email API used to send an email when user submits the contact form
 * [Google Maps](https://developers.google.com/maps) - Map API used to show the location of each place of interest featured in each country.
+* [Gitpod](https://www.gitpod.io/) - IDE used for writing and editing code, version control
+* [Github](https://github.com/) - Code hosting platform
 
 ## Testing
 
 ## Deployment
+
+
 
 ## Credits
 
