@@ -14,7 +14,7 @@ The primary goal of the website from a user's perspective is to find out about s
 
 ### Project goals
 * This website aims to provide the user with a responsive, intuitive website that is easy to navigate and find relevant information, that the user can interact with to get more information as desired. 
-* As a user, they can find out an overview about the various destinations featured, along with links to more information, and a map that shows some points of interest and places to stay in each country. The user can also get in touch and ask for more information or also make suggestions about other countries or destinations that should be featured on the site in the future.
+* As a user, they can find out an overview about the various destinations featured, along with more details for each country with key locations detailed, and a map that shows the location of those places. The user can also get in touch and ask for more information or also make suggestions about other countries or destinations that should be featured on the site in the future.
 * As a site owner, this website is aimed at providing film and tv fans with some inspiration about where they can go to see some locations made famous in various film and tv shows. 
 
 ### User Stories
@@ -24,6 +24,7 @@ The primary goal of the website from a user's perspective is to find out about s
 * As a user, I want to find out where my favourite film or tv show was filmed and learn more about that location. 
 * As a user, I want to be able to follow them on social media for the very latest updates.
 * As a user, I want to be able to easily find out how to contact the business if I want more information or have more questions. 
+* As a user, I would like to be able to contact the company to make suggestions of where the site should feature in the future.
 
 
 ### Wireframes
@@ -34,6 +35,12 @@ The primary goal of the website from a user's perspective is to find out about s
 
 
 ### Design
+
+The aim with the design of this project is to present the user with an elegant, visually appealing, easy to navigate website that draws attention to the beautiful locations being showcased.  From the destinations page, the user can explore all the different locations in detail without an overload of information being shown all at once. The aim is to provide the user with a calm feeling when exploring the site, ensuring the user does not feel overwhelemed when exploring the content. 
+The images used were chosen carefully to engage the user and encourage the user to want to explore the site and content at their own pace. 
+I used a filter on the images both ensure the content overlaying it would be easier to read and I also feel this contributes to a more consistent look across the site and the images have a slightly uniform feel. 
+I chose the Josefin Sans font from Google Fonts with the aim of giving the content a spophisticated, elegant feel. I chose a cursive font for the quotes displaying, specifically Caveat font, to make it stand out from the rest of the content. 
+The final design has differed from the wireframes based on what I felt worked better to provide a better, more consistent experience for the user. Specifically on the destinations page, where in the wireframes the details would drop down underneath that country, I ultimately felt it worked better to have that detail in the one section underneath all the countries and implemented scrolling to that section when the user clicks. I also implemented a modal to display when the user has sent the contact form rather than the pop-up box in the wireframes. Again, I felt this improved the user experience. 
 
 ## Features
 
@@ -47,9 +54,21 @@ The primary goal of the website from a user's perspective is to find out about s
 
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 * [CSS](https://en.wikipedia.org/wiki/CSS)
-* []
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 #### Programs, Frameworks, Resources
+
+* [Bootstrap](https://getbootstrap.com/) - used for styling throughout
+* [jQuery](https://jquery.com/) - used for various methods & simpler DOM manipulation
+* [Google Fonts](https://fonts.google.com/) - used for all fonts chosen
+* [Font awesome](https://fontawesome.com/) - used for arrow icons & social media icons
+* [Hover.css](https://ianlunn.github.io/Hover/) - used for the skew forward effect on clickable links
+* [Pixlr](https://pixlr.com/e/) - used for image editing - resizing & adding filters
+* [TinyPNG](https://tinypng.com/) - used to compress all images 
+* [Favicon.io](https://favicon.io/favicon-generator/) - used to generate favicon
+* [OpenWeatherMap](https://openweathermap.org/api) - Weather API used to generate current weather details for capital cities in each country featured
+* [EmailJS](https://www.emailjs.com/) - Email API used to send an email when user submits the contact form
+* [Google Maps](https://developers.google.com/maps) - Map API used to show the location of each place of interest featured in each country.
 
 ## Testing
 
