@@ -5,9 +5,9 @@ html {
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 200;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
     margin: 0;
     padding: 0;
 }
@@ -270,7 +270,7 @@ h1 {
 
 .destinations-info-text p {
     padding: 20px 35px 15px 35px;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .hidden {
@@ -310,7 +310,7 @@ img {
 #newzealand-div p,
 #morocco-div p,
 #ireland-div p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 ul {
@@ -403,7 +403,7 @@ h3 {
 }
 
 .contact-heading-row {
-    padding-top: 80px;
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -413,12 +413,16 @@ h3 {
 
 }
 
-.contact-form h2 {
+.contact-heading {
     color: rgba(247, 245, 245, 0.8);
     margin-bottom: 20px;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 30px;
+}
+
+.contact-form p {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .form-group {
