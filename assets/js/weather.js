@@ -3,11 +3,11 @@
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
-        let cityName = data['name'];
-        let cityWeatherDesc = data['weather'][0]['description'];
-        let cityTemp = Math.round(data['main']['temp']);
+        const cityName = data['name'];
+        const cityWeatherDesc = data['weather'][0]['description'];
+        const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
-        var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get our img element by using document.getElementById
         var img = document.getElementsByClassName("wicon")[0];
 
@@ -23,11 +23,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metr
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
-        let cityName = data['name'];
-        let cityWeatherDesc = data['weather'][0]['description'];
-        let cityTemp = Math.round(data['main']['temp']);
+        const cityName = data['name'];
+        const cityWeatherDesc = data['weather'][0]['description'];
+        const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
-        var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get our img element by using document.getElementById
         var img = document.getElementsByClassName("wicon")[1];
         //Set the src property of our element to the new image URL
@@ -43,11 +43,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metri
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
-        let cityName = data['name'];
-        let cityWeatherDesc = data['weather'][0]['description'];
-        let cityTemp = Math.round(data['main']['temp']);
+        const cityName = data['name'];
+        const cityWeatherDesc = data['weather'][0]['description'];
+        const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
-        var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get our img element by using document.getElementById
         var img = document.getElementsByClassName("wicon")[2];
         //Set the src property of our element to the new image URL
@@ -62,11 +62,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=met
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
-        let cityName = data['name'];
-        let cityWeatherDesc = data['weather'][0]['description'];
-        let cityTemp = Math.round(data['main']['temp']);
+        const cityName = data['name'];
+        const cityWeatherDesc = data['weather'][0]['description'];
+        const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
-        var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get our img element by using document.getElementById
         var img = document.getElementsByClassName("wicon")[3];
         //Set the src property of our element to the new image URL
@@ -81,11 +81,11 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&a
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
-        let cityName = data['name'];
-        let cityWeatherDesc = data['weather'][0]['description'];
-        let cityTemp = Math.round(data['main']['temp']);
+        const cityName = data['name'];
+        const cityWeatherDesc = data['weather'][0]['description'];
+        const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
-        var iconurl = "https://openweathermap.org/img/w/" + iconcode + ".png";
+        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get our img element by using document.getElementById
         var img = document.getElementsByClassName("wicon")[4];
 
