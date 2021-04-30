@@ -371,8 +371,9 @@ h3 {
     background-size: cover;
     background-color: rgb(66, 64, 64);
     width: auto;
-    height: 100vh;
+    height: auto;
     position: relative;
+    padding-bottom: 20px;
 }
 
 #contact-section a {
@@ -448,6 +449,7 @@ blockquote span {
 
 /* ----- Media Queries -----  */
 
+/* Screens under 767px */
 @media screen and (max-width: 767px) {
 
     .nav-item a {
@@ -568,10 +570,43 @@ blockquote span {
     #contact-section {
         background: url('../images/iceland-night-lights.jpg') no-repeat center center fixed;
         height: auto;
+        background-size: cover;
+        padding-bottom: 0;
     }
 
     .contact-col {
         padding-bottom: 25px;
     }
 
+}
+
+/* Screens above 768px */
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .contact-form p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .text-input {
+        width: 80%;
+    }
+
+    .form-group {
+        padding: 20px;
+    }
+
+    .quotes-col {
+        padding-top: 15px;
+    }
+
+    blockquote {
+        padding-top: 20px;
+        font-size: 32px;
+    }
+
+    #contact-section {
+        height: 105vh;
+    }
 }
