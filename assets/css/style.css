@@ -339,6 +339,7 @@ h3 {
 .weather-box p {
     padding: 0;
     text-transform: uppercase;
+    font-size: 18px;
 }
 
 #iceland-weather,
