@@ -31,9 +31,9 @@ The primary goal of the website from a user's perspective is to find out about s
 
 ### Wireframes
 
-* [Home page](wireframes/home-page.pdf)
-* [Destinations page](wireframes/destinations-page.pdf)
-* [Contact page](wireframes/contact-page.pdf)
+* [Home page](assets/wireframes/home-page.pdf)
+* [Destinations page](assets/wireframes/destinations-page.pdf)
+* [Contact page](assets/wireframes/contact-page.pdf)
 
 
 ### Design
