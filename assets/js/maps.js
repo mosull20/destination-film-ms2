@@ -41,12 +41,11 @@ function initMap() {
             optimized: false,
         });
 
-        marker.addListener("mouseover", () => {
+        marker.addListener("click", () => {
+            infoWindow.close();
             infoWindow.setContent(marker.getTitle());
             infoWindow.open(marker.getMap(), marker);
-        });
-        marker.addListener("mouseout", () => {
-            infoWindow.close();
+
         });
     });
 
@@ -92,12 +91,10 @@ function initMap() {
             optimized: false,
         });
 
-        marker.addListener("mouseover", () => {
+        marker.addListener("click", () => {
+            infoWindow.close();
             infoWindow.setContent(marker.getTitle());
             infoWindow.open(marker.getMap(), marker);
-        });
-        marker.addListener("mouseout", () => {
-            infoWindow.close();
         });
     });
 
@@ -142,12 +139,10 @@ function initMap() {
             optimized: false,
         });
 
-        marker.addListener("mouseover", () => {
+        marker.addListener("click", () => {
+            infoWindow.close();
             infoWindow.setContent(marker.getTitle());
             infoWindow.open(marker.getMap(), marker);
-        });
-        marker.addListener("mouseout", () => {
-            infoWindow.close();
         });
     });
 
@@ -192,12 +187,10 @@ function initMap() {
             optimized: false,
         });
 
-        marker.addListener("mouseover", () => {
+        marker.addListener("click", () => {
+            infoWindow.close();
             infoWindow.setContent(marker.getTitle());
             infoWindow.open(marker.getMap(), marker);
-        });
-        marker.addListener("mouseout", () => {
-            infoWindow.close();
         });
     });
 
@@ -242,12 +235,10 @@ function initMap() {
             optimized: false,
         });
 
-        marker.addListener("mouseover", () => {
+        marker.addListener("click", () => {
+            infoWindow.close();
             infoWindow.setContent(marker.getTitle());
             infoWindow.open(marker.getMap(), marker);
-        });
-        marker.addListener("mouseout", () => {
-            infoWindow.close();
         });
     });
 }
