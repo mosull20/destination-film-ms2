@@ -162,11 +162,20 @@ If you wish to clone or download the project to work on locally, take the follow
 
 ### Code
 
-+ Code for how to display the weather icon from OpenWeatherMap api - solution found on [Stack Overflow - here](https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon/62369654#62369654)
++ Weather.js file - Code for how to display the weather icon from OpenWeatherMap api - solution found on [Stack Overflow - here](https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon/62369654#62369654).
+I also used a site called [thisinterestsme.com](https://thisinterestsme.com/change-src-image-javascript/) re changing src attribute and I used these 2 lines for code from here (where indicated in weather.js file). 
 
-+ Code in destinations.js to handle the different places of interest in each country was refactored from what I originally wrote to make it slightly shorter and more logical. Functionality remained the same. My mentor (Nishant Kumar) provided me assistance in rewriting this section (as noted in the js file). 
++ Destinations.js file - Code here to handle the different places of interest in each country was refactored from what I originally wrote to make it slightly shorter and more logical. Functionality remained the same. My mentor (Nishant Kumar) provided me assistance in rewriting this section (as noted in the js file). 
+
++ Scripts.js - code for the function to display the quotes array randomly - Fisher Yates shuffle code taken from [here](https://bost.ocks.org/mike/shuffle/).
+
++ Scripts.js - found a suggestion utilising the setTimeout with a timer variable on Stack Overflow, adapted it to fit my project's requirement.
 
 + Smooth scrolling effect in CSS found in [W3 schools - here](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2)
+
++ Code for inserting favicon as used in my previous MS1 project and orignally sourced then from a Youtube video by Dani Krossing as recommended by Anna Greaves (Code Institute) in her MS1 helper documents.
+
+
 
 
 ### Media

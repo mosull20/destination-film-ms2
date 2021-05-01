@@ -30,6 +30,8 @@ function initMap() {
             lng: -16.8891762
         }, "Hverfjall mountain"],
     ];
+
+    // following code from Google Maps API Marker Accessibility doc
     var infoWindow = new google.maps.InfoWindow();
     locations.forEach(([position, title]) => {
         const marker = new google.maps.Marker({

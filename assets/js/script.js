@@ -33,7 +33,7 @@ function shuffle(array) {
     }
 }
 // function to iterate through quotes, displaying one at a time for a set time
-
+// assisted with the setTimeout function - Stack Overflow
 function changeQuotes() {
     var timer = 0;
     for (let i = 0; i < myQuotes.length; i++) {

@@ -1,5 +1,5 @@
 // Weather API - OpenWeatherMap.org 
-
+// Code from API documentation, stack overflow for displaying icons
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
@@ -8,10 +8,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metr
         const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
         var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
-        //Get our img element by using document.getElementById
+        //Get img element by using document.getElementById (thisinterestsme.com)
         var img = document.getElementsByClassName("wicon")[0];
 
-        //Set the src property of our element to the new image URL
+        //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
         document.getElementsByClassName("city-name")[0].innerHTML = cityName + `: `;
@@ -28,9 +28,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metri
         const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
         var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
-        //Get our img element by using document.getElementById
+        //Get img element by using document.getElementById (thisinterestsme.com)
         var img = document.getElementsByClassName("wicon")[1];
-        //Set the src property of our element to the new image URL
+        //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
         document.getElementsByClassName("city-name")[1].innerHTML = cityName + `: `;;
@@ -48,9 +48,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=met
         const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
         var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
-        //Get our img element by using document.getElementById
+        //Get img element by using document.getElementById (thisinterestsme.com)
         var img = document.getElementsByClassName("wicon")[2];
-        //Set the src property of our element to the new image URL
+        //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
         document.getElementsByClassName("city-name")[2].innerHTML = cityName + `: `;;
@@ -67,9 +67,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&a
         const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
         var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
-        //Get our img element by using document.getElementById
+        //Get img element by using document.getElementById (thisinterestsme.com)
         var img = document.getElementsByClassName("wicon")[3];
-        //Set the src property of our element to the new image URL
+        //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
         document.getElementsByClassName("city-name")[3].innerHTML = cityName + `: `;;
@@ -86,10 +86,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&
         const cityTemp = Math.round(data['main']['temp']);
         var iconcode = data['weather'][0]['icon'];
         var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
-        //Get our img element by using document.getElementById
+        //Get img element by using document.getElementById (thisinterestsme.com)
         var img = document.getElementsByClassName("wicon")[4];
 
-        //Set the src property of our element to the new image URL
+        //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
         document.getElementsByClassName("city-name")[4].innerHTML = cityName + `: `;;
