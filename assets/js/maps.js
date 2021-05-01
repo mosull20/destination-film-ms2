@@ -106,8 +106,8 @@ function initMap() {
     var map = new google.maps.Map(document.getElementById("map-three"), {
         zoom: 5,
         center: {
-            lat: -43.3744881,
-            lng: 172.4662705
+            lat: -41.387115,
+            lng: 173.271459
         }
     });
 

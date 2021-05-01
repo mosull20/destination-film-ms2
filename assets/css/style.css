@@ -197,7 +197,7 @@ footer a:hover {
 /* Iceland box */
 #country-iceland {
     background-image: url('../images/iceland-glacier.jpg');
-    height: 45vh;
+    height: 400px;
 }
 
 .iceland-title {
@@ -207,25 +207,25 @@ footer a:hover {
 /* Malta box */
 #country-malta {
     background-image: url('../images/malta-sea.jpg');
-    height: 35vh;
+    height: 340px;
 }
 
 /* New Zealand box */
 #country-new-zealand {
     background-image: url('../images/new-zealand-hobbit-house.jpg');
-    height: 35vh;
+    height: 340px;
 }
 
 /* Morocco box */
 #country-morocco {
     background-image: url('../images/morocco-own.jpg');
-    height: 35vh;
+    height: 340px;
 }
 
 /* Ireland box */
 #country-ireland {
     background-image: url('../images/ireland-1-v2.jpg');
-    height: 35vh;
+    height: 340px;
 }
 
 /* Hidden Div section - general */
@@ -312,6 +312,11 @@ ul {
     padding: 10px;
 }
 
+.text-map-row {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
 /* Weather section */
 .weather-box {
     text-align: center;
@@ -359,6 +364,7 @@ h3 {
 .up-arrow {
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
 }
 
 .up-arrow i {
@@ -535,6 +541,17 @@ blockquote span {
     #morocco-div,
     #ireland-div {
         margin-left: 15px;
+    }
+
+    #country-iceland {
+        height: 280px;
+    }
+
+    #country-malta,
+    #country-new-zealand,
+    #country-morocco,
+    #country-ireland {
+        height: 240px;
     }
 
     #contact-section .nav-item a {
