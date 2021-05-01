@@ -308,8 +308,9 @@ ul {
 #map-five {
     display: inline-block;
     width: auto;
-    height: 40vh;
+    height: 500px;
     padding: 10px;
+    margin-top: 40px;
 }
 
 .text-map-row {
@@ -552,6 +553,14 @@ blockquote span {
     #country-morocco,
     #country-ireland {
         height: 240px;
+    }
+
+    #map-one,
+    #map-two,
+    #map-three,
+    #map-four,
+    #map-five {
+        height: 300px;
     }
 
     #contact-section .nav-item a {
