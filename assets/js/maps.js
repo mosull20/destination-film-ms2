@@ -1,3 +1,4 @@
+// Code here from Google Maps API documentation & Code Institute course content
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map-one"), {
         zoom: 6,

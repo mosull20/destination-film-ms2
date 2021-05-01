@@ -15,7 +15,7 @@ function sendMail(contactForm) {
                 successMessage.innerHTML =
                     `<p>Your message has been sent. Thank you for getting in touch!</p>
                     `
-                $('#exampleModal').modal('show'); // code from Bootsrap modal docs
+                $('#exampleModal').modal('show'); // code from Bootstrap modal docs
                 console.log("Success!", response);
                 document.getElementById('my-contact-form').reset();
             },
@@ -26,7 +26,7 @@ function sendMail(contactForm) {
                 successMessage.innerHTML =
                     `<p>Something went wrong, please try again later!</p>
                     `
-                $('#exampleModal').modal('show'); // code from Bootsrap modal docs
+                $('#exampleModal').modal('show'); // code from Bootstrap modal docs
                 console.log("Failed!", error);
             });
     return false;

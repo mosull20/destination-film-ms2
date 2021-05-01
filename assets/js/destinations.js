@@ -43,8 +43,9 @@ $(document).ready(function () {
 
 });
 
-// Create an object within each destination object to hold all the info
+// Following section refactored with mentor's guidance from my orginal code
 
+// Create an object within each destination object to hold all the info
 const destinations = {
     // Iceland destinations
     "Dettifoss": {
