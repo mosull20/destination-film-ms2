@@ -1,5 +1,5 @@
 // Weather API - OpenWeatherMap.org 
-// Code from API documentation, stack overflow for displaying icons
+// Code from API documentation, stack overflow & thisinterestsme.com for displaying icons
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
     .then(data => {
@@ -19,6 +19,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metr
         document.getElementsByClassName("city-temp")[0].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
         document.getElementsByClassName("wicon")[0].classList.remove("hidden");
     })
+    .catch((err) => {
+        alert("Weather not found!");
+    })
+
 
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
@@ -38,7 +42,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metri
         document.getElementsByClassName("city-temp")[1].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
         img.classList.remove("hidden");
     })
-
+    .catch((err) => {
+        alert("Weather not found!");
+    })
 
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
@@ -57,6 +63,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=met
         document.getElementsByClassName("city-description")[2].innerHTML = cityWeatherDesc;
         document.getElementsByClassName("city-temp")[2].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
         img.classList.remove("hidden");
+    })
+    .catch((err) => {
+        alert("Weather not found!");
     })
 
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
@@ -77,6 +86,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&a
         document.getElementsByClassName("city-temp")[3].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
         img.classList.remove("hidden");
     })
+    .catch((err) => {
+        alert("Weather not found!");
+    })
 
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&appid=b4dda6c99772835b257f99c1117ac187')
     .then(response => response.json())
@@ -96,4 +108,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&
         document.getElementsByClassName("city-description")[4].innerHTML = cityWeatherDesc;
         document.getElementsByClassName("city-temp")[4].innerHTML = cityTemp + `<span><sup>°C</sup></span>`;
         img.classList.remove("hidden");
+    })
+    .catch((err) => {
+        alert("Weather not found!");
     })
