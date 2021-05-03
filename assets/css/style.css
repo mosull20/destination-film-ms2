@@ -469,7 +469,9 @@ blockquote span {
 @media screen and (max-width: 767px) {
 
     .nav-item a {
-        font-size: 14px;
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .headline-text {
@@ -579,7 +581,7 @@ blockquote span {
     }
 
     #contact-section .nav-item a {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .contact-heading-row {
