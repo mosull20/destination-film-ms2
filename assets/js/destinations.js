@@ -1,3 +1,6 @@
+/* jshint esversion: 6 */
+/* globals $:false */
+
 // Jquery in use throughout
 
 // function to display the relevant div on clicking from the main country menu
@@ -266,7 +269,7 @@ const destinations = {
         was also a setting for Leap Year (2010), Becoming Jane (2007) with Anne Hathaway and a famous scene in John Boorman's Excalibur (1981).
         Wicklow, once dubbed "the Hollywood of Europe" by Jane Seymour, is home to oodles of famous movie and TV locations.`
     }
-}
+};
 
 // Write the function to get the elements from the object 
 function getElements({
@@ -279,73 +282,73 @@ function getElements({
     return `<img src="${imageSrc}" alt="${imageAltText}">
     <p>${title}</p>
     <hr class="country-title-hr">
-    <p>${description}</p>`
+    <p>${description}</p>`;
 }
 
 // function is called on click of li items 
 // iceland buttons 
 $("#iceland-li-one").click(function () {
     $("#iceland-div").html(
-        getElements(destinations["Dettifoss"])
+        getElements(destinations.Dettifoss)
     );
-})
+});
 
 $("#iceland-li-two").click(function () {
     $("#iceland-div").html(
         getElements(destinations["Mýrdalssandur beach"])
     );
-})
+});
 
 $("#iceland-li-three").click(function () {
     $("#iceland-div").html(
         getElements(destinations["Reyðarfjörður"])
     );
-})
+});
 
 $("#iceland-li-four").click(function () {
     $("#iceland-div").html(
         getElements(destinations["Skógafoss"])
     );
-})
+});
 
 $("#iceland-li-five").click(function () {
     $("#iceland-div").html(
         getElements(destinations["Hverfjall mountain"])
     );
-})
+});
 
 
 // function calls on click - malta buttons 
 
 $("#malta-li-one").click(function () {
     $("#malta-div").html(
-        getElements(destinations["Gozo"])
+        getElements(destinations.Gozo)
     );
-})
+});
 
 $("#malta-li-two").click(function () {
     $("#malta-div").html(
         getElements(destinations["Popeye village"])
     );
-})
+});
 
 $("#malta-li-three").click(function () {
     $("#malta-div").html(
         getElements(destinations["Blue Lagoon"])
     );
-})
+});
 
 $("#malta-li-four").click(function () {
     $("#malta-div").html(
-        getElements(destinations["Valletta"])
+        getElements(destinations.Valletta)
     );
-})
+});
 
 $("#malta-li-five").click(function () {
     $("#malta-div").html(
-        getElements(destinations["Mdina"])
+        getElements(destinations.Mdina)
     );
-})
+});
 
 // function calls on click - New Zealand buttons 
 
@@ -353,31 +356,31 @@ $("#newzealand-li-one").click(function () {
     $("#newzealand-div").html(
         getElements(destinations["Lake Pukaki"])
     );
-})
+});
 
 $("#newzealand-li-two").click(function () {
     $("#newzealand-div").html(
-        getElements(destinations["Hobbiton"])
+        getElements(destinations.Hobbiton)
     );
-})
+});
 
 $("#newzealand-li-three").click(function () {
     $("#newzealand-div").html(
         getElements(destinations["Cathedral Cove"])
     );
-})
+});
 
 $("#newzealand-li-four").click(function () {
     $("#newzealand-div").html(
         getElements(destinations["Fiordland National Park"])
     );
-})
+});
 
 $("#newzealand-li-five").click(function () {
     $("#newzealand-div").html(
         getElements(destinations["Mount Taranaki"])
     );
-})
+});
 
 // function calls on click - Morocco buttons 
 
@@ -385,31 +388,31 @@ $("#morocco-li-one").click(function () {
     $("#morocco-div").html(
         getElements(destinations["Aït Benhaddou"])
     );
-})
+});
 
 $("#morocco-li-two").click(function () {
     $("#morocco-div").html(
-        getElements(destinations["Tangier"])
+        getElements(destinations.Tangier)
     );
-})
+});
 
 $("#morocco-li-three").click(function () {
     $("#morocco-div").html(
         getElements(destinations["Erg Chebbi"])
     );
-})
+});
 
 $("#morocco-li-four").click(function () {
     $("#morocco-div").html(
-        getElements(destinations["Marrakesh"])
+        getElements(destinations.Marrakesh)
     );
-})
+});
 
 $("#morocco-li-five").click(function () {
     $("#morocco-div").html(
-        getElements(destinations["Essaouira"])
+        getElements(destinations.Essaouira)
     );
-})
+});
 
 // function calls on click - Ireland buttons 
 
@@ -417,28 +420,28 @@ $("#ireland-li-one").click(function () {
     $("#ireland-div").html(
         getElements(destinations["Skellig Michael"])
     );
-})
+});
 
 $("#ireland-li-two").click(function () {
     $("#ireland-div").html(
-        getElements(destinations["Powerscourt"])
+        getElements(destinations.Powerscourt)
     );
-})
+});
 
 $("#ireland-li-three").click(function () {
     $("#ireland-div").html(
         getElements(destinations["Cliffs of Moher"])
     );
-})
+});
 
 $("#ireland-li-four").click(function () {
     $("#ireland-div").html(
         getElements(destinations["Kilmainham Gaol"])
     );
-})
+});
 
 $("#ireland-li-five").click(function () {
     $("#ireland-div").html(
         getElements(destinations["Lough Tay"])
     );
-})
+});

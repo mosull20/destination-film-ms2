@@ -1,3 +1,6 @@
+/* jshint esversion: 6 */
+/* globals $:false */
+
 // Code here from Google Maps API documentation & Code Institute course content
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map-one"), {
@@ -7,7 +10,6 @@ function initMap() {
             lng: -19.021169
         }
     });
-
     var locations = [
         [{
             lat: 65.8146648,
@@ -30,7 +32,6 @@ function initMap() {
             lng: -16.8891762
         }, "Hverfjall mountain"],
     ];
-
     // following code from Google Maps API Marker Accessibility doc
     var infoWindow = new google.maps.InfoWindow();
     locations.forEach(([position, title]) => {
@@ -40,7 +41,6 @@ function initMap() {
             title: `${title}`,
             optimized: false,
         });
-
         marker.addListener("click", () => {
             infoWindow.close();
             infoWindow.setContent(marker.getTitle());
@@ -48,10 +48,10 @@ function initMap() {
 
         });
     });
+}
 
-
-    // section to show map on malta page
-
+// function to show map on malta page
+function callMaltaMap() {
     var map = new google.maps.Map(document.getElementById("map-two"), {
         zoom: 10,
         center: {
@@ -59,7 +59,6 @@ function initMap() {
             lng: 14.409943
         }
     });
-
     var locations = [
         [{
             lat: 36.0468259,
@@ -97,9 +96,12 @@ function initMap() {
             infoWindow.open(marker.getMap(), marker);
         });
     });
+}
 
-    // section to show map on new zealand page
 
+
+// function to show map on new zealand page
+function callNewZealandMap() {
     var map = new google.maps.Map(document.getElementById("map-three"), {
         zoom: 5,
         center: {
@@ -145,9 +147,9 @@ function initMap() {
             infoWindow.open(marker.getMap(), marker);
         });
     });
-
-    // section to show map on morocco page
-
+}
+// function to show map on morocco page
+function callMoroccoMap() {
     var map = new google.maps.Map(document.getElementById("map-four"), {
         zoom: 5,
         center: {
@@ -193,9 +195,9 @@ function initMap() {
             infoWindow.open(marker.getMap(), marker);
         });
     });
-
-    // section to show map on ireland page
-
+}
+// function to show map on ireland page
+function callIrelandMap() {
     var map = new google.maps.Map(document.getElementById("map-five"), {
         zoom: 6,
         center: {
@@ -242,3 +244,19 @@ function initMap() {
         });
     });
 }
+// function call on malta arrow click
+$("#arrow-malta").click(function () {
+    callMaltaMap();
+});
+// function call on new zealand arrow click
+$("#arrow-newzealand").click(function () {
+    callNewZealandMap();
+});
+// function call on morocco arrow click
+$("#arrow-morocco").click(function () {
+    callMoroccoMap();
+});
+// function call on ireland arrow click 
+$("#arrow-ireland").click(function () {
+    callIrelandMap();
+});

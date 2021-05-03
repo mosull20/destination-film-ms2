@@ -1,3 +1,6 @@
+/* jshint esversion: 6 */
+/* globals $:false */
+
 // Create an Array of quotes
 
 var myQuotes = [
