@@ -1,5 +1,6 @@
 # Destination Film
 
+![Am I responsive screesnhot](assets/testing-images/responsive-screenshot.png)
 
 View the live website [here](https://mosull20.github.io/destination-film-ms2/).
 
@@ -105,6 +106,8 @@ There are two features which this project may benefit from in the future, outsid
 * [Google Maps](https://developers.google.com/maps) - Map API used to show the location of each place of interest featured in each country.
 * [Gitpod](https://www.gitpod.io/) - IDE used for writing and editing code, version control
 * [GitHub](https://github.com/) - Code hosting platform
+* [Autoprefixer.io](https://autoprefixer.github.io/) - used to add vendor prefixes for the major browsers
+* [Am I Responsive](http://ami.responsivedesign.is/) - used to create the screenshot used at the top of Readme file.
 
 ## Testing
 Testing is detailed in a seperate document, [here](TESTING.md).
