@@ -50,14 +50,124 @@
 
     * SendEmail.js - logs one undefined variable (emailjs) and one unused variable (sendMail). This code is from the emailJS API and is called in my contact.html file. 
 
-    * Script.js - 
+    * Script.js - two warnings. I have not yet resolved these warnings. 
+     ![Warning image](assets/testing-images/scripts-jshint-warnings.png) 
+
 
 
     
 ## Manual Testing
 ### Lighthouse Testing
+
+* Tested each page at mobile size and desktop size. 
+* Home page - mobile 
+![Home page mobile image](assets/testing-images/home-mobile-lighthouse.png)
+* Home page - desktop
+![Home page desktop image](assets/testing-images/home-desktop-lighthouse.png)
+
+* Destinations page - mobile 
+![Destinations page mobile image](assets/testing-images/destinations-mobile-lighthouse.png)
+
+* Destinations page - desktop
+![Destinations page desktop image](assets/testing-images/destinations-desktop-lighthouse.png)
+
+* Contact page - mobile
+![Contact page mobile image](assets/testing-images/contact-mobile-lighthouse.png)
+* Contact page - desktop
+![Contatc page desktop image](assets/testing-images/contact-desktop-lighthouse.png)
+
+
 ### Functionality Testing
+
+I used Google Chrome Tools at all stages of this project to continuously check how each detail worked, particularly in ensuring responsiveness of each section and feature as I worked on them. 
+
+Here are the steps taken to manually test each feature of the website. 
+
+Home Page 
+
+* Nav Bar 
+    + clicked on 'Destination Film' title at left of nav bar to ensure home page loads 
+    + clicked on 'Home" to ensure home page loads
+    + clicked on 'Destinations' - brings the user to the Destinations page
+    + clicked on 'Contact' - brings the user to the Contact page
+
+
+
+* Main section 
+    + clicked on 'learn more' - page scrolls down to intro section
+
+* Intro section
+    + clicked on 'See all our destinations' - brings the user to the Destinations Page
+
+* Footer
+    + Clicked on 'Get in Touch' - brings the user to the Contact page
+    + clicked on the Facebook icon - opens the facebook home page in a new window (no social media exists for this fictional website)
+    + clicked on the Twitter icon - opens the Twitter home page in a new window
+    + clicked on the Instagram icon - opens the Instagram home page in a new window
+
+Destinations Page
+
+* Repeated all the steps above for both the Nav Bar and footer to ensure all links worked as expected.
+
+* Iceland section
+    + clicked on the down arrow under the country title - opens and scrolls down to display the info about Iceland
+    + weather section works as expected
+    + clicked on each of the five placenames to ensure the correct relevant image and info displays in the box
+    + clicked on the markers on the map to ensure the correct place name is shown in an info window so the user knows what that location is
+    + clicked on the up arrow to ensure the user is brought back to the top of the page
+
+* Malta section, New Zealand section, Morocco section, Ireland section
+
+    + repeated all the above steps taken for each country section to ensure all functioned as expected
+
+
+Contact Page 
+* Repeated all the steps above for both the Nav Bar and footer to ensure all links worked as expected.
+
+* Contact Form 
+    + clicked on 'send it' button to check if form validation works, message is shown to ensure the user fills in the name field, filled in a name and clicked send again to ensure it requests the user to fill in a valid email address. Filled in an email address, clicked send again to ensure the form could not be sent without a message in the message field. 
+    + filled all fields in and clicked 'send it' button to ensure modal appears to inform user whether their message has been submitted successfully or not. 
+
+
+
+
+#### Responsiveness
+
+* Checked responiveness of website using Chrome Dev Tools at every stage of development.
+* Also checked the responsiveness at [Responsinator.com](http://www.responsinator.com/)
+
+
+#### Cross Browser Testing
+
+The website was developed and tested primarily using the Chrome browser. I then checked the website on the following browsers - Firefox, Opera, Safari & Microsoft Edge.
+
+
 ### User Stories Testing
+
+* _As a user of this website, I want to find some ideas for interesting places for my next holiday._
+
+The website showcases five different countries. The user can click through each country for more detailed information, images and places of interest where particular film or tv shows have been filmed giving some ideas of places to visit.
+
+* _As a user, I love films and TV and want to travel to see where my favourite shows were filmed._ 
+
+The website details exactly what parts of each country have been used as locations so that if they would like to visit the country they know where to see places they have seen on screen.
+
+* _As a user, I want to find out where my favourite film or tv show was filmed and learn more about that location._ 
+
+As well as detailing what was shot at various places within each country, the website also gives a little information about the place and what makes it attractive.
+
+* _As a user, I want to be able to follow them on social media for the very latest updates._
+
+Social Media links are in the footer section with the icon for each social media platform that will open in a new browser window to ensure the user can easily come back to this website.
+
+* _As a user, I want to be able to easily find out how to contact the business if I want more information or have more questions._ 
+
+There is a link in the footer of each page titled 'Get in Touch' so the user can click on that and it will take them to the contact page where they can fill out a simple form to contact the website for further info. In the Nav Bar there is a clear link to the Contact Page, clicking on this will bring the user to that page to fill out a form. 
+
+* _As a user, I would like to be able to contact the company to make suggestions of what countries or places the site should feature in the future._
+
+On the contact page, the website encourages the user to get in touch to offer up ideas for where they would like to see featured in the future. 
+
 ### Bugs & Fixes
 
 * After including Google Maps API as per the documentation, I kept getting an error in the console to say that `'initMap' is not a function`. On searching the internet, I found the solution [here - at elharony.com](https://www.elharony.com/initmap-is-not-a-function/). The solution that worked for me was to switch the order so that my maps.js file loads ahead of the google maps script. Otherwise, the function is called when the computer has not yet loaded the file containing the function itself. 
@@ -67,3 +177,5 @@
 * Issue with height on the contact page. When setting height to 100vh as desired for the background image to always cover the browser window, content in the form div would spill out over the footer if browser window height made small. But if I set the height in pixels, the content would leave a gap at the foot of the window if made too large. Tried many different fixes with adjusting height of the parent and child divs, positioning of parent and child divs etc. After much searching, I found a solution on Stack Overflow [here](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) which recommended a very simple fix - set height to `min-height: 100vh` instead of `height:100vh`.
 
 * Issue with fixing the maps.js map function so as to correct my orginial mistake of repeating variables that were already defined - This took me a while to fix as when I tried to give the variables a different name, the markers stopped being visible on the maps. I tried a number of fixes, asked for tutor assistance but in the end I wrapped each map in a separate function to be called when the arrow would be clicked by the user. I feel while this solution worked for me, I'm aware it may not be the best, most efficient way but I do need to do further study on that outside the time constraints of this project. It is my intention to come back to this project in the future and refactor much of my JS code once I have gained some further experience and have more time to practice JavaScript outside the course time frame. 
+
+* Lighthouse test - issue with performance on the destinations page on mobile devices. This is something I was unable to fully resolve to get a better performance result and will need to look at ways to improve the 'Largest Contentful Paint' time and 'Time to interactive' as these two measures are showing problematic times as much of the recommended steps were outside the scope of my current level of knowledge. I did take the recommended step of further optimizing images and this did help to improve the initial score slightly. 
