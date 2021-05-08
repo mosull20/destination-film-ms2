@@ -93,7 +93,7 @@ const destinations = {
     // Malta destinations
     "Gozo": {
         title: "Gozo",
-        imageSrc: "assets/images/malta-gozo.jpg",
+        imageSrc: "assets/images/malta-gozo-small.jpg",
         imageAltText: "photo of Gozo",
         description: `Malta and its two smaller satellite islands of Gozo and Comino have featured in various
         productions, arguably the most popular of which is Game of Thrones. Brad Pitt and Angelina Jolie filmed
@@ -225,7 +225,7 @@ const destinations = {
     // Ireland destinations
     "Skellig Michael": {
         title: "Skellig Michael",
-        imageSrc: "assets/images/irl-skellig-michael.jpg",
+        imageSrc: "assets/images/irl-skellig-michael-small.jpg",
         imageAltText: "photo of Skellig Micheal",
         description: `Star Wars is the movie that made Skellig Michael even more famous than it was. While
         looking for a spot to act as the planet of Ahch To which featured at the end of The Force Awakens,
