@@ -1,5 +1,6 @@
 /* jshint esversion: 6 */
 /* globals $:false */
+/* global google */
 
 // Code here from Google Maps API documentation & Code Institute course content
 function initMap() {

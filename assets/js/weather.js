@@ -1,5 +1,5 @@
 /* jshint esversion: 6 */
-/* globals $:false */
+
 
 // Weather API - OpenWeatherMap.org 
 // Code from API documentation, stack overflow & thisinterestsme.com for displaying icons

@@ -28,7 +28,7 @@
 2. CSS validated on [Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator)
     *  Passed with no errors found
 ![Error image](assets/testing-images/css-valid-result.png)
-    * One error was found
+    * One warning was found
 ![Warning image](assets/testing-images/css-valid-warn.png)
     * No action required as the @import content cannot be checked
 
@@ -37,12 +37,21 @@
 
     * All js files run through JSHint, on first run I got many errors to do with es6, on searching Code Institute Slack community, I found adding the following lines `/* jshint esversion: 6 */
 /* globals $:false */` corrected many of these warnings. 
-    * Two files produced multiple errors - 
-    weather.js file: most errors related to the recommendation of using dot notation in places, and missing or unnecessary semi-colons. All these I was able to correct. One warning remains relating to "one unused variable $". This refers to the second line above (`/* globals $:false */`). 
+
+    * Weather.js file: most errors related to the recommendation of using dot notation in places, and missing or unnecessary semi-colons. All these I was able to correct. Another warning related to "one unused variable $". This refers to the second line above (`/* globals $:false */`). I removed this as it was not required in this file. No warnings remain.
     ![Warning image](assets/testing-images/weather-jshint-warnings.png)
 
-    * The second file with multiple errors was my maps.js file. The warnings were due to the fact that I was reusing variables that were already defined. I have detailed this below in bugs and fixes. 
+    * Maps.js - The second file with multiple errors was my maps.js file. The warnings were due to the fact that I was reusing variables that were already defined. I have detailed this below in bugs and fixes. 
     ![Warning image](assets/testing-images/maps-jshint-warnings.png)
+    After taking the actions detailed below and running the code through again, 2 warnings remain - one to do with 'google' being an undefined variable. As this is from google maps api code, I did not want to change any code but I found a solution on [Ember.js](https://discuss.emberjs.com/t/google-is-not-defined-jshint-error/5762) which was to add `/* global google */` at the top of the file. It also shows initMap as an unused variable. My initMap() function defined here is called in destinations.html as per google api code, so jshint does not see this. 
+
+
+    * Destinations.js file passes with no errors or warnings
+
+    * SendEmail.js - logs one undefined variable (emailjs) and one unused variable (sendMail). This code is from the emailJS API and is called in my contact.html file. 
+
+    * Script.js - 
+
 
     
 ## Manual Testing
@@ -57,4 +66,4 @@
 
 * Issue with height on the contact page. When setting height to 100vh as desired for the background image to always cover the browser window, content in the form div would spill out over the footer if browser window height made small. But if I set the height in pixels, the content would leave a gap at the foot of the window if made too large. Tried many different fixes with adjusting height of the parent and child divs, positioning of parent and child divs etc. After much searching, I found a solution on Stack Overflow [here](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small) which recommended a very simple fix - set height to `min-height: 100vh` instead of `height:100vh`.
 
-* Issue with fixing the maps.js map function so as to correct my orginial mistake of repeating variables that were already defined - This took me a while to fix as when I tried to give the variables a different name, the markers stopped being visible on the maps. I tried a number of fixes, asked for tutor assistance but in the end I wrapped each map in a separate function to be called when the arrow would be clicked by the user. I feel while this solution worked for me, it may not be the best, most efficient way but I do need to do further study on that outside the time constraints of this project. 
+* Issue with fixing the maps.js map function so as to correct my orginial mistake of repeating variables that were already defined - This took me a while to fix as when I tried to give the variables a different name, the markers stopped being visible on the maps. I tried a number of fixes, asked for tutor assistance but in the end I wrapped each map in a separate function to be called when the arrow would be clicked by the user. I feel while this solution worked for me, I'm aware it may not be the best, most efficient way but I do need to do further study on that outside the time constraints of this project. It is my intention to come back to this project in the future and refactor much of my JS code once I have gained some further experience and have more time to practice JavaScript outside the course time frame. 
