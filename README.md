@@ -26,8 +26,8 @@ The primary goal of the website from a user's perspective is to find out about s
 * As a user of this website, I want to find some ideas for interesting places for my next holiday.
 * As a user, I love films and TV and want to travel to see where my favourite shows were filmed. 
 * As a user, I want to find out where my favourite film or tv show was filmed and learn more about that location. 
-* As a user, I want to be able to follow them on social media for the very latest updates.
-* As a user, I want to be able to easily find out how to contact the business if I want more information or have more questions. 
+* As a user, I want to be able to follow the company on social media for the very latest updates.
+* As a user, I want to be able to easily find out how to contact the company if I want more information or have more questions. 
 * As a user, I would like to be able to contact the company to make suggestions of what countries or places the site should feature in the future.
 
 
@@ -48,16 +48,16 @@ For the contact page, I chose to add in a little interest for the user by having
 The images used were chosen carefully to engage the user and encourage the user to want to explore the site and content at their own pace. 
 I used a filter on the images both ensure the content overlaying it would be easier to read and I also feel this contributes to a more consistent look across the site and the images have a slightly uniform feel with the colors in the photo more toned down than vivid.
 #### Typefont
-I chose the Josefin Sans font from Google Fonts with the aim of giving the content a spophisticated, elegant feel. I chose a cursive font for the quotes displaying, specifically Caveat font, to make it stand out from the rest of the content. 
+I chose the Josefin Sans font from Google Fonts with the aim of giving the content a sophisticated, elegant feel. I chose a cursive font for the quotes displaying, specifically Caveat font, to make it stand out from the rest of the content. 
 #### Note about Wireframes
 The final design has differed from the wireframes based on what I felt worked better to provide a better, more consistent experience for the user. Specifically on the destinations page, where in the wireframes the details would drop down underneath that country, I ultimately felt it worked better to have that detail in the one section underneath all the countries and implemented scrolling to that section when the user clicks. I also implemented a modal to display when the user has sent the contact form rather than the pop-up box in the wireframes. Again, I felt this improved the user experience. 
 
 ## Features
 #### Existing Features
 * Home Page
-  + Navigation bar with simple company name (linked back to home page), and links to each of the 3 pages. This will be consistent through all pages wiht consistent transparent styling.
+  + Navigation bar with simple company name (linked back to home page), and links to each of the 3 pages. This will be consistent through all pages with consistent transparent styling.
   + Landing area to take full screen when site opened with headline and short explanation of the site overlayed over a background image. Link to 'learn more' which will scroll users down to next section of home page for a further explanation of what the site is about, along with a link to click to the destionations page.
-  + Footer which will be consistent across all pages. Footer simply contains a link to the contact page, links fo social media (home pages only as this website is created for the purposes if the Code Institute project and so does not have a social media prescence), and copyright info. 
+  + Footer which will be consistent across all pages. Footer simply contains a link to the contact page, links to social media (home pages only as this website is created for the purposes of the Code Institute project and so does not have a social media prescence), and copyright info. 
 
 * Destinations Page
   + Nav Bar as above 
@@ -108,6 +108,7 @@ There are two features which this project may benefit from in the future, outsid
 * [GitHub](https://github.com/) - Code hosting platform
 * [Autoprefixer.io](https://autoprefixer.github.io/) - used to add vendor prefixes for the major browsers
 * [Am I Responsive](http://ami.responsivedesign.is/) - used to create the screenshot used at the top of Readme file.
+* [Squoosh](https://squoosh.app/) - used for additional final image compression
 
 ## Testing
 Testing is detailed in a seperate document, [here](TESTING.md).
@@ -166,7 +167,7 @@ If you wish to clone or download the project to work on locally, take the follow
 ### Code
 
 + Weather.js file - Code for how to display the weather icon from OpenWeatherMap api - solution found on [Stack Overflow - here](https://stackoverflow.com/questions/44177417/how-to-display-openweathermap-weather-icon/62369654#62369654).
-I also used a site called [thisinterestsme.com](https://thisinterestsme.com/change-src-image-javascript/) re changing src attribute and I used these 2 lines for code from here (where indicated in weather.js file). 
+I also used a site called [thisinterestsme.com](https://thisinterestsme.com/change-src-image-javascript/) re changing src attribute and I used these 2 lines of code from this site (where attributed in the comments in weather.js file). 
 
 + Destinations.js file - Code here to handle the different places of interest in each country was refactored from what I originally wrote to make it slightly shorter and more logical. Functionality remained the same. My mentor (Nishant Kumar) provided me assistance in rewriting this section (as noted in the js file). 
 
@@ -176,7 +177,7 @@ I also used a site called [thisinterestsme.com](https://thisinterestsme.com/chan
 
 + Smooth scrolling effect in CSS found in [W3 schools - here](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section2)
 
-+ Code for inserting favicon as used in my previous MS1 project and orignally sourced then from a Youtube video by Dani Krossing as recommended by Anna Greaves (Code Institute) in her MS1 helper documents.
++ Code for inserting favicon as used in my previous MS1 project and orignally sourced then from a Youtube video by Dani Krossing as recommended by Anna Greaves (Code Institute) in MS1 helper documents.
 
 
 

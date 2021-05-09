@@ -12,9 +12,9 @@
     1. Too many consecutive hypens in some of my comments, I corrected this
     2. Stray end `</a>` tag - I removed this
     3. Empty headings (repeated through each section) in the `<h2 class="city-name d-inline"></h2>` and `<h3 class="city-temp d-inline"></h3>` headings. This was empty as being filled using a weather API in JavaScript. I corrected this error by putting in placeholder text describing the content to go in ie. 'City' and 'Temperature'. That eliminated this error and provided a semantic description of the content of that heading.
-    4. Error re Bad value for attribute src on element img: must be non empty. This was left empty originally as being filled with content pulled from Weather API in JavaScript. I found a solution to this on [Stack Overflow](https://stackoverflow.com/questions/30658663/bad-value-for-attribute-src-on-element-img-must-be-non-empty-for-dynamically) which was simply to put a placeholder '#' in the src attribute. This worked and eliminated the error warnings. Again, I had this repeated in each of 5 sections so that error message was repeated. 
+    4. Error re `Bad value for attribute src on element img: must be non empty`. This was left empty originally as being filled with content pulled from Weather API in JavaScript. I found a solution to this on [Stack Overflow](https://stackoverflow.com/questions/30658663/bad-value-for-attribute-src-on-element-img-must-be-non-empty-for-dynamically) which was simply to put a placeholder '#' in the src attribute. This worked and eliminated the error warnings. Again, I had this repeated in each of 5 sections so that error message was repeated. 
     5. Stray end tag (repeated in each section) `</img>` - I removed this as the img tag is self closing and does not need an end tag. 
-    6. Error re 'span not allowed as child element of ul in this context' - I had a span tag after my li closing tag in order to put a '|' in between the li items that would not be affected by the hover.css class I had on the li elements. I corrected this error by simply removing the span tag and replacing it with li tag to encompass the '|' in it's own element without the 'hvr-skew-forward' class on it. Again, this error was repeated approx 20 times across all the different sections.
+    6. Error re `span not allowed as child element of ul in this context` - I had a span tag after my li closing tag in order to put a '|' in between the li items that would not be affected by the hover.css class I had on the li elements. I corrected this error by simply removing the span tag and replacing it with li tag to encompass the '|' in it's own element without the 'hvr-skew-forward' class on it. Again, this error was repeated approx 20 times across all the different sections.
     7. Duplicate id 'icon' - this was an id I had on the div enclosing the `<img>` for the weather icon being pulled from the weather API. I had put in this id when I was originally writing this section of code, but didn't need it as I had used the class name instead to target each section to manipulate the content using JavaScript. I simply removed all the `div id="icon"` occurances.
     + On correcting each repetition of the above 7 basic errors/warnings, the code then passed with no further errors or warnings.
 
@@ -50,7 +50,7 @@
 
     * SendEmail.js - logs one undefined variable (emailjs) and one unused variable (sendMail). This code is from the emailJS API and is called in my contact.html file. 
 
-    * Script.js - two warnings. I have not yet resolved these warnings. 
+    * Script.js - two warnings. I have not yet resolved these warnings. As the code functions as I intended, for now I have not been able to refactor this in a satisfactory way, this is something I will need to resolve at a later date outside the time constraints of the project. 
      ![Warning image](assets/testing-images/scripts-jshint-warnings.png) 
 
 
@@ -61,19 +61,35 @@
 
 * Tested each page at mobile size and desktop size. 
 * Home page - mobile 
+
+
 ![Home page mobile image](assets/testing-images/home-mobile-lighthouse.png)
+
+
 * Home page - desktop
+
+
 ![Home page desktop image](assets/testing-images/home-desktop-lighthouse.png)
 
-* Destinations page - mobile 
+* Destinations page - mobile (see note in Bugs & Fixes below regarding the performance score)
+
+
 ![Destinations page mobile image](assets/testing-images/destinations-mobile-lighthouse.png)
 
 * Destinations page - desktop
+
+
 ![Destinations page desktop image](assets/testing-images/destinations-desktop-lighthouse.png)
 
 * Contact page - mobile
+
+
 ![Contact page mobile image](assets/testing-images/contact-mobile-lighthouse.png)
+
+
 * Contact page - desktop
+
+
 ![Contatc page desktop image](assets/testing-images/contact-desktop-lighthouse.png)
 
 
