@@ -9,10 +9,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Reykjavik,is&units=metr
         const cityName = data.name;
         const cityWeatherDesc = data.weather[0].description;
         const cityTemp = Math.round(data.main.temp);
-        var iconcode = data.weather[0].icon;
-        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
+        let iconcode = data.weather[0].icon;
+        let iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get img element by using document.getElementsByClassName (thisinterestsme.com)
-        var img = document.getElementsByClassName("wicon")[0];
+        let img = document.getElementsByClassName("wicon")[0];
 
         //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
@@ -33,10 +33,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Valletta,mt&units=metri
         const cityName = data.name;
         const cityWeatherDesc = data.weather[0].description;
         const cityTemp = Math.round(data.main.temp);
-        var iconcode = data.weather[0].icon;
-        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
+        let iconcode = data.weather[0].icon;
+        let iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get img element by using document.getElementsByClassName (thisinterestsme.com)
-        var img = document.getElementsByClassName("wicon")[1];
+        let img = document.getElementsByClassName("wicon")[1];
         //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
@@ -55,10 +55,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Wellington,nz&units=met
         const cityName = data.name;
         const cityWeatherDesc = data.weather[0].description;
         const cityTemp = Math.round(data.main.temp);
-        var iconcode = data.weather[0].icon;
-        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
+        let iconcode = data.weather[0].icon;
+        let iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get img element by using document.getElementsByClassName (thisinterestsme.com)
-        var img = document.getElementsByClassName("wicon")[2];
+        let img = document.getElementsByClassName("wicon")[2];
         //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
@@ -77,10 +77,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Rabat,ma&units=metric&a
         const cityName = data.name;
         const cityWeatherDesc = data.weather[0].description;
         const cityTemp = Math.round(data.main.temp);
-        var iconcode = data.weather[0].icon;
-        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
+        let iconcode = data.weather[0].icon;
+        let iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get img element by using document.getElementsByClassName(thisinterestsme.com)
-        var img = document.getElementsByClassName("wicon")[3];
+        let img = document.getElementsByClassName("wicon")[3];
         //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;
 
@@ -99,10 +99,10 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q=Dublin,ie&units=metric&
         const cityName = data.name;
         const cityWeatherDesc = data.weather[0].description;
         const cityTemp = Math.round(data.main.temp);
-        var iconcode = data.weather[0].icon;
-        var iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
+        let iconcode = data.weather[0].icon;
+        let iconurl = `https://openweathermap.org/img/w/${iconcode}.png`;
         //Get img element by using document.getElementsByClassName (thisinterestsme.com)
-        var img = document.getElementsByClassName("wicon")[4];
+        let img = document.getElementsByClassName("wicon")[4];
 
         //Set the src property of element to the new image URL (thisinterestsme.com)
         img.src = iconurl;

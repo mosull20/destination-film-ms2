@@ -3,7 +3,7 @@
 
 // Jquery in use throughout
 
-// function to display the relevant div on clicking from the main country menu
+// Event listeners to display the relevant div on clicking from the main country menu
 $(document).ready(function () {
     $("#arrow-iceland").click(function () {
         $("#display-country-details-iceland").show();

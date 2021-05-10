@@ -3,7 +3,7 @@
 
 // Create an Array of quotes
 
-var myQuotes = [
+const myQuotes = [
     `"Life moves pretty fast. If you don't stop and look around once in a while, you could miss it" <br> <span>- Ferris Bueller's Day Off</span>`,
     `"The world is not in your books and maps, it's out there." <br> <span>- The Hobbit: An Unexpected Journey</span>`,
     `"Your heart is free, have the courage to follow it" <br> <span>- Braveheart</span>`,
@@ -23,7 +23,7 @@ var myQuotes = [
 // function to display the quotes array randomly - Fisher Yates shuffle code from https://www.bost.ocks.org/mike/shuffle
 
 function shuffle(array) {
-    var m = array.length,
+    let m = array.length,
         t, i;
     // While there remain elements to shuffle…
     while (m) {
@@ -38,7 +38,7 @@ function shuffle(array) {
 // function to iterate through quotes, displaying one at a time for a set time
 // assisted with the setTimeout function - Stack Overflow
 function changeQuotes() {
-    var timer = 0;
+    let timer = 0;
     for (let i = 0; i < myQuotes.length; i++) {
         setTimeout(() => document.getElementById("quotes-box").innerHTML = myQuotes[i], timer);
         timer = timer + 4000;
