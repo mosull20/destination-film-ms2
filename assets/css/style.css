@@ -64,6 +64,10 @@ footer a {
     text-decoration: none;
 }
 
+.contact-link {
+    padding-right: 20%;
+}
+
 .social-media a {
     padding-right: 10px;
     padding-left: 10px;
@@ -513,6 +517,10 @@ blockquote span {
 
     .footer-item {
         height: 30px;
+    }
+
+    .contact-link {
+        padding-right: 0;
     }
 
     .country-text h1 {
